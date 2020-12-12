@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio | Dimas Addriansyah</title>
     <link rel="stylesheet" href="bootstrap/css/app.css">
+    <link rel="stylesheet" href="/scss/main.css">
 </head>
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
         <div class="container">
-            <a class="navbar-brand text-orange font-weight-bold" href="">Dimas Addriansyah</a>
+            <a class="navbar-brand text-blue font-weight-bold" href="">Dimas Addriansyah</a>
             <button 
                 data-toggle="collapse"
                 data-target="#navbarResponsive" 
@@ -26,8 +27,10 @@
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
                         href="#project">Project</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
-                            href="#project">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="btn btn-outline-orange nav-link js-scroll-trigger"
+                            href="#design">Design</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"
+                                href="#project">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="btn btn-outline-blue nav-link js-scroll-trigger"
                             href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -36,38 +39,156 @@
 
     <section id="contact">
         <div class="container2">
+            <!-- Desktop -->
+            <div class="d-none d-md-block">
             <div class="row">
-                <div class="col-lg-4 col-md-6 mt-lg-5">
-                    <img class="img-fluid" src="img/WhatsApp Image 2020-10-17 at 02.09.54.jpeg" alt="" width="300px">
-                </div>
-                <div class="col-lg-8-float col-md-6 mt-lg-5 ">
-                    <h3 class="text-orange">Hi, I'm Dimas Addriansyah</h3>
+                <div class="col-md-6">
+                    <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
                     <h1 class="mt-2">UI/UX Designer Beginner</h1>
                     <p class="mt-3">I’m from Indonesia and I studying at Polytechnic Indramayu Department Software Engineering. 
                         I am interested in the world of UI UX Design because in my opinion UI UX Design requires skills in terms of user satisfaction so that the application used can last a long time and is not boring.
                         I live in Indramayu, West Java
                     </p> 
-                    <a class="btn btn-orange mt-4" id="contact" href="mailto:dimasaddriansyah14@gmail.com">Contact Me</a>
+                    <a class="btn btn-blue mt-2 custombtn" id="contact" href="mailto:dimasaddriansyah14@gmail.com">Contact Me</a>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/WhatsApp Image 2020-10-17 at 02.09.54.jpeg" alt="" width="300px">
+                </div>
+            </div>
+            </div>
+
+            <!-- Mobile -->
+            <div class="d-md-none d-sm-block">
+                <div class="row">
+                    <div class="col-md-6">
+                        <center>
+                            <img class="img-fluid" src="img/WhatsApp Image 2020-10-17 at 02.09.54.jpeg" alt="" width="300px">
+                        </center>
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
+                        <h1 class="mt-2">UI/UX Designer Beginner</h1>
+                        <p class="mt-3">I’m from Indonesia and I studying at Polytechnic Indramayu Department Software Engineering. 
+                            I am interested in the world of UI UX Design because in my opinion UI UX Design requires skills in terms of user satisfaction so that the application used can last a long time and is not boring.
+                            I live in Indramayu, West Java
+                        </p> 
+                        <a class="btn btn-blue mt-2 custombtn" id="contact" href="mailto:dimasaddriansyah14@gmail.com">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="container mt-lg-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="mb-lg-5">Selected Project</h1>
+                    <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care">
+                    <h3 class="text-blue mt-4">OWLS Beauty Skin Care</h3>
+                    <p class="">is a beauty clinic located in Indonesia, visitors can consult with experienced doctors. The treatment provided varies according to need. 
+                        To buy skincare products by coming to a place directly or online. Besides that, if the visitor is far from our place, 
+                        they can take the online queue on our website then download it and show it when they come to our place</p>
+                    <button class="btn btn-blue">View Website</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="project">
-        <div class="container2">
+    <section id="design">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12 mt-lg-5">
-                    <h1 class="mb-lg-5">Project</h1>
-                    <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care">
-                    <h3 class="text-orange mt-4">OWLS Beauty Skin Care</h3>
-                    <p class="">is a beauty clinic located in Indonesia, visitors can consult with experienced doctors. The treatment provided varies according to need. 
-                        To buy skincare products by coming to a place directly or online. Besides that, if the visitor is far from our place, 
-                        they can take the online queue on our website then download it and show it when they come to our place</p>
-                    <button class="btn btn-orange">View Website</button>
+                <div class="col-lg-12">
+                    <h1 class="mb-lg-5">Selected Design</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care">
+                        </div>
+                    </div>
                 </div>
             </div>
+            <button class="btn btn-blue">View Website</button>
         </div>
     </section>
+
+    <footer class="page-footer font-small bg-dark pt-4">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-white">OWLS Beauty Skin Care</h6>
+            <p class="text-muted" style="text-align: justify;">is a beauty clinic located in Indonesia, visitors can consult with experienced doctors. The treatment provided varies according to need. 
+                To buy skincare products by coming to a place directly or online. Besides that, if the visitor is far from our place, 
+                they can take the online queue on our website then download it and show it when they come to our place</p>
+            </div>
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-white">Products</h6>
+            <p>
+                <a href="#!" style="color: #27AE60;">OWLS Toner</a>
+            </p>
+            <p>
+                <a href="#!" style="color: #27AE60;">OWLS Day Cream</a>
+            </p>
+            <p>
+                <a href="#!" style="color: #27AE60;">OWLS Night Cream</a>
+            </p>
+            <p>
+                <a href="#!" style="color: #27AE60;">OWLS Serum</a>
+            </p>
+            <p>
+                <a href="#!" style="color: #27AE60;">OWLS Sun Screen</a>
+            </p>
+            <p>
+                <a href="#!" style="color: #27AE60;">OWLS Facial Wash</a>
+            </p>
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="w-100 clearfix d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-white">Treatment</h6>
+            <p>
+                <a href="#!" style="color: #27AE60;">Laser Treatment</a>
+            </p>
+            <p>
+                <a href="#!" style="color: #27AE60;">Face Treatment</a>
+            </p>
+            <p>
+                <a href="#!" style="color: #27AE60;">Body Treatment</a>
+            </p>
+            </div>
+    
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p>
+                    <i class="fas fa-map-pin mr-3"></i> Jakarta, Indonesia
+                </p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> owls@gmail.com
+                </p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> + 62 892 2343 1923
+                </p>
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Footer links -->
+        </div>
+        <!-- Footer Links -->
+    </footer>
 
 
     <script src="bootstrap/js/app.js"></script>
