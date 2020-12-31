@@ -1,13 +1,34 @@
 body {
-  background-color: #121212;
+  background-color: #ffffff;
 }
 
-body .navbar .container .text-blue {
+body nav .container .navbar-brand {
+  font-weight: bold;
+}
+
+body nav .container .navbar-brand:hover {
+  color: #41aea9;
+}
+
+body nav .container .collapse .nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+body nav .container .collapse .nav a:hover {
+  color: #41aea9;
+  font-weight: 500;
+}
+
+body nav .container .text-blue {
   color: #41aea9;
 }
 
 body section p {
   line-height: 200%;
+  color: #acacac;
+  text-align: justify;
 }
 
 body section .custombtn {
@@ -15,8 +36,57 @@ body section .custombtn {
   font-weight: 500;
 }
 
-body .container2 {
-  margin-top: 150px;
+body section .card {
+  border-radius: 10px;
+}
+
+body section .card .card-body img {
+  margin-top: 10px;
+}
+
+body section .card .card-body h5 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+body section .card .card-body h6 {
+  text-align: center;
+}
+
+body section .card:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(51, 205, 252, 0.2), 0 6px 20px 0 rgba(0, 183, 255, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(51, 205, 252, 0.2), 0 6px 20px 0 rgba(0, 183, 255, 0.19);
+}
+
+body section .center {
+  text-align: center;
+}
+
+body section .two {
+  margin-top: 30px;
+}
+
+body section .all {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #41aea9;
+  text-decoration: none;
+}
+
+.space {
+  margin-top: 165px;
 }
 
 .text-blue {
