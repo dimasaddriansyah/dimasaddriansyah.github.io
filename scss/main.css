@@ -2,6 +2,11 @@ body {
   background-color: #ffffff;
 }
 
+body nav .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 body nav .container .navbar-brand {
   font-weight: bold;
 }
