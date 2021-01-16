@@ -36,6 +36,13 @@ body section p {
   text-align: justify;
 }
 
+body section h5 {
+  line-height: 200%;
+  color: #acacac;
+  text-align: justify;
+  width: 400px;
+}
+
 body section .custombtn {
   padding: 15px;
   font-weight: 500;
@@ -90,8 +97,16 @@ footer a:hover {
   text-decoration: none;
 }
 
+.p-skill {
+  width: 450px;
+}
+
 .space {
   margin-top: 165px;
+}
+
+.space-section {
+  margin-top: 20px;
 }
 
 .text-blue {

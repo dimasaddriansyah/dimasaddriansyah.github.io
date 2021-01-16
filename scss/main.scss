@@ -38,10 +38,17 @@ body {
     }
 
     section {
-        p {
+        p{
             line-height: 200%;
             color: #acacac;
             text-align: justify;
+        }
+
+        h5{
+            line-height: 200%;
+            color: #acacac;
+            text-align: justify;
+            width: 400px;
         }
 
         .custombtn {
@@ -104,8 +111,16 @@ footer{
     padding-bottom: 50px;
 }
 
+.p-skill{
+    width: 450px;
+}
+
 .space{
     margin-top: 165px;
+}
+
+.space-section{
+    margin-top: 20px;
 }
 
 .text-blue {

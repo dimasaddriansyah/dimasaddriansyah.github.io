@@ -1,356 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio | Dimas Addriansyah</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/scss/main.css" />
-  </head>
 
-  <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
-      <div class="container">
-        <a class="navbar-brand text-blue">Dimas Addriansyah</a>
-        <button
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-toogle="collapse"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="nav navbar-nav ml-auto text-capitalize">
-            <li class="nav-item" role="presentation">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link js-scroll-trigger" href="#project">Project</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link js-scroll-trigger" href="#design">Design</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Dimas Addriansyah</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/scss/main.css" />
+  <script src="/js/typed.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
+    <div class="container">
+      <a class="navbar-brand text-blue">Dimas Addriansyah</a>
+      <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
+        type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto text-capitalize">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#project">Project</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link js-scroll-trigger" href="#design">Design</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section id="contact">
-      <div class="container space">
-        <!-- Desktop -->
-        <div class="d-none d-md-block">
-          <div class="row">
-            <div
-              class="col-md-6"
-              data-aos="fade-right"
-              data-aos-anchor-placement="left-right"
-              data-aos-duration="1500"
-            >
-              <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
-              <h1 class="mt-2">UI/UX Designer Beginner</h1>
-              <p class="mt-3">
-                I’m from Indonesia and I studying at Polytechnic Indramayu
-                Department Software Engineering. I am interested in the world of
-                UI UX Design because in my opinion UI UX Design requires skills
-                in terms of user satisfaction so that the application used can
-                last a long time and is not boring. I live in Indramayu, West
-                Java
-              </p>
-              <a
-                class="btn btn-blue mt-2 custombtn"
-                id="contact"
-                href="mailto:dimasaddriansyah14@gmail.com"
-                >Contact Me</a
-              >
-            </div>
-            <div
-              class="col-md-6 d-flex justify-content-center"
-              data-aos="fade-left"
-              data-aos-anchor-placement="left-right"
-              data-aos-duration="1500"
-            >
-              <img src="img/dims.png" alt="dimasaddriansyah" width="60%" />
-            </div>
+  <section id="contact">
+    <div class="container space">
+      <!-- Desktop -->
+      <div class="d-none d-md-block">
+        <div class="row">
+          <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-anchor-placement="left-right" data-aos-duration="1500">
+            <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
+            <h1 class="mt-2"><span id="typed"></span></h1>
+            <!-- <p class="mt-3">
+              I’m from Indonesia and I studying at Polytechnic Indramayu
+              Department Software Engineering. I am interested in the world of
+              UI UX Design because in my opinion UI UX Design requires skills
+              in terms of user satisfaction so that the application used can
+              last a long time and is not boring. I live in Indramayu, West
+              Java
+            </p> -->
+            <a class="btn btn-blue mt-5 custombtn" id="contact" href="mailto:dimasaddriansyah14@gmail.com">Contact
+              Me</a>
           </div>
-        </div>
-
-        <!-- Mobile -->
-        <div class="d-md-none d-sm-block">
-          <div class="row">
-            <div class="col-md-6">
-              <center>
-                <img
-                  class="img-fluid"
-                  src="img/dimas.png"
-                  alt="dimasaddriansyah"
-                  width="300px"
-                />
-              </center>
-            </div>
-            <div class="col-md-6 mt-5">
-              <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
-              <h1 class="mt-2">UI/UX Designer Beginner</h1>
-              <p class="mt-3">
-                I’m from Indonesia and I studying at Polytechnic Indramayu
-                Department Software Engineering. I am interested in the world of
-                UI UX Design because in my opinion UI UX Design requires skills
-                in terms of user satisfaction so that the application used can
-                last a long time and is not boring. I live in Indramayu, West
-                Java
-              </p>
-              <a
-                class="btn btn-blue mt-2 custombtn"
-                id="contact"
-                href="mailto:dimasaddriansyah14@gmail.com"
-                >Contact Me</a
-              >
-            </div>
+          <div class="col-md-6  d-flex justify-content-center" data-aos="fade-left"
+            data-aos-anchor-placement="left-right" data-aos-duration="1500">
+            <img src="img/dims.png" alt="dimasaddriansyah" width="60%"/ class="tilt">
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="project">
-      <div class="container space">
-        <h1
-          class="mb-lg-5 text-blue"
-          data-aos="fade-right"
-          data-aos-duration="850"
-        >
-          Selected Project
-        </h1>
+      <!-- Mobile -->
+      <div class="d-md-none d-sm-block">
         <div class="row">
           <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="card-body">
-                <img
-                  class="img-fluid"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-                <h5 class="text-blue">OWLS Beauty Skin Care</h5>
-                <h6 class="text-blue">HTML + Bootstrap</h6>
-              </div>
-            </div>
+            <center>
+              <img class="img-fluid" src="img/dimas.png" alt="dimasaddriansyah" width="300px" />
+            </center>
           </div>
-          <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="card-body">
-                <img
-                  class="img-fluid"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-                <h5 class="text-blue">Addriansyah Foods</h5>
-                <h6 class="text-blue">Laravel + Vue Js + Bootstrap</h6>
-              </div>
-            </div>
+          <div class="col-md-6 mt-5">
+            <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
+            <h1 class="mt-2">UI/UX Designer Beginner</h1>
+            <!-- <p class="mt-3">
+              I’m from Indonesia and I studying at Polytechnic Indramayu
+              Department Software Engineering. I am interested in the world of
+              UI UX Design because in my opinion UI UX Design requires skills
+              in terms of user satisfaction so that the application used can
+              last a long time and is not boring. I live in Indramayu, West
+              Java
+            </p> -->
+            <a class="btn btn-blue mt-4 custombtn" id="contact" href="mailto:dimasaddriansyah14@gmail.com">Contact
+              Me</a>
           </div>
         </div>
-        <div class="row two">
-          <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
-              <div class="card-body">
-                <img
-                  class="img-fluid"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-                <h5 class="text-blue">Pengobatan Alternatif</h5>
-                <h6 class="text-blue">Laravel + Bootstrap</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
-              <div class="card-body">
-                <img
-                  class="img-fluid"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-                <h5 class="text-blue">POS Zahira Shop</h5>
-                <h6 class="text-blue">Laravel + Bootstrap</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <center>
-          <button
-            class="btn btn-blue all"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-          >
-            View all project <i class="fas fa-angle-double-right fa-sm"></i>
-          </button>
-        </center>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="design">
-      <div class="container space">
-        <h1
-          class="mb-lg-5 text-blue"
-          data-aos="fade-right"
-          data-aos-duration="850"
-        >
-          Selected Design
-        </h1>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="card-body">
-                <img
-                  class="img-fluid mb-5"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-              </div>
+  <section id="about">
+    <div class="container space">
+      <h1 class="mb-lg-5 text-blue" data-aos="fade-right" data-aos-duration="850">
+        About me
+      </h1>
+      <div class="row space-section">
+        <div class="col-md-6 d-flex justify-content-center" data-aos="fade-left" data-aos-anchor-placement="left-right"
+          data-aos-duration="1500">
+          <img src="img/dims.png" alt="dimasaddriansyah" width="60%" />
+        </div>
+        <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-anchor-placement="left-right"
+          data-aos-duration="1500">
+          <p>
+            I’m from Indonesia and I studying at Polytechnic Indramayu
+            Department Software Engineering. I am interested in the world of
+            UI UX Design because in my opinion UI UX Design requires skills in
+            terms of user satisfaction so that the application used can last a
+            long time and is not boring. I live in Indramayu, West Java
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container space">
+      <h1 class="mb-lg-5 text-blue" data-aos="fade-right" data-aos-duration="850">
+        Skills & Tools
+      </h1>
+      <div class="row space-section">
+        <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-anchor-placement="right-left"
+          data-aos-duration="1500">
+          <p class="p-skill text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusantium, deleniti libero animi, molestiae beatae qui autem
+            possimus optio eum dolor reprehenderit magni, quis inventore?
+            Minima perferendis voluptatem cum recusandae eveniet.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
+              <img class="img-fluid" src="img/dims.png" alt="dimasaddriansyah" width="60%" />
+              <p>Visual Studio Code</p>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="card-body">
-                <img
-                  class="img-fluid mb-5"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-              </div>
+            <div class="col-md-6" data-aos="zoom-in-up" data-aos-duration="1000">
+              <img class="img-fluid" src="img/dims.png" alt="dimasaddriansyah" width="60%" />
+              <p>Figma</p>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1000">
+              <img class="img-fluid" src="img/dims.png" alt="dimasaddriansyah" width="60%" />
+              <p>Laravel</p>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1800">
+              <img class="img-fluid" src="img/dims.png" alt="dimasaddriansyah" width="60%" />
+              <p>Vue Js</p>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1800">
+              <img class="img-fluid" src="img/dims.png" alt="dimasaddriansyah" width="60%" />
+              <p>Bootstrap</p>
             </div>
           </div>
         </div>
-        <div class="row two">
-          <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
-              <div class="card-body">
-                <img
-                  class="img-fluid mb-5"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-              </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project">
+    <div class="container space">
+      <h1 class="mb-lg-5 text-blue" data-aos="fade-right" data-aos-duration="850">
+        Selected Project
+      </h1>
+      <div class="row space-section">
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="card-body">
+              <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+              <h5 class="text-blue" style="text-align: center !important; ">OWLS Beauty Skin Care</h5>
+              <h6 class="text-blue">HTML + Bootstrap</h6>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
-              <div class="card-body">
-                <img
-                  class="img-fluid mb-5"
-                  src="img/Preview 1.jpg"
-                  alt="OWLS Beauty Skin Care"
-                />
-              </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="card-body">
+              <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+              <h5 class="text-blue">Addriansyah Foods</h5>
+              <h6 class="text-blue">Laravel + Vue Js + Bootstrap</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row two">
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
+            <div class="card-body">
+              <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+              <h5 class="text-blue">Pengobatan Alternatif</h5>
+              <h6 class="text-blue">Laravel + Bootstrap</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
+            <div class="card-body">
+              <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+              <h5 class="text-blue">POS Zahira Shop</h5>
+              <h6 class="text-blue">Laravel + Bootstrap</h6>
             </div>
           </div>
         </div>
       </div>
       <center>
-        <button
-          class="btn btn-blue all"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
-        >
-          View all design <i class="fas fa-angle-double-right fa-sm"></i>
+        <button class="btn btn-blue all" data-aos="zoom-in" data-aos-duration="1000">
+          View all project <i class="fas fa-angle-double-right fa-sm"></i>
         </button>
       </center>
-    </section>
+    </div>
+  </section>
 
-    <footer class="page-footer font-small bg-dark pt-4 space">
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left">
-        <!-- Footer links -->
-        <div class="row text-center text-md-left mt-3 pb-3">
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold text-white">
-              Social Media
-            </h6>
-            <p>
-              <a href="#!"><i class="mr-3" style="color: white;"></i> dimasaddriansyah</a>
-            </p>
-            <p>
-              <a href="#!"><i class="mr-3"></i> dimasaddriansyah</a>
-            </p>
-            <p>
-              <a href="#!"><i class="mr-3"></i> dimasaddriansyah</a>
-            </p>
+  <section id="design">
+    <div class="container space">
+      <h1 class="mb-lg-5 text-blue" data-aos="fade-right" data-aos-duration="850">
+        Selected Design
+      </h1>
+      <div class="row space-section">
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+            </div>
           </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold text-white">
-              Navigation
-            </h6>
-            <p>
-              <a href="#about">About</a>
-            </p>
-            <p>
-              <a href="#project">Project</a>
-            </p>
-            <p>
-              <a href="#design">Design</a>
-            </p>
-          </div>
-
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p><i class="fas fa-map-pin mr-4"></i> Indramayu, Indonesia</p>
-            <p>
-              <i class="fas fa-envelope mr-3"></i> dimasaddriansyah14gmail.com
-            </p>
-            <p><i class="fas fa-phone mr-3"></i> +62 895 1439 1356</p>
-          </div>
-          <!-- Grid column -->
         </div>
-        <!-- Footer links -->
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Footer Links -->
-    </footer>
+      <div class="row two">
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <center>
+      <button class="btn btn-blue all" data-aos="zoom-in" data-aos-duration="1000">
+        View all design <i class="fas fa-angle-double-right fa-sm"></i>
+      </button>
+    </center>
+  </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <footer class="page-footer font-small bg-dark pt-4 space">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-white">
+            Social Media
+          </h6>
+          <p>
+            <a href="#!"><i class="mr-3" style="color: white"></i> dimasaddriansyah</a>
+          </p>
+          <p>
+            <a href="#!"><i class="mr-3"></i> dimasaddriansyah</a>
+          </p>
+          <p>
+            <a href="#!"><i class="mr-3"></i> dimasaddriansyah</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-white">
+            Navigation
+          </h6>
+          <p>
+            <a href="#about">About</a>
+          </p>
+          <p>
+            <a href="#project">Project</a>
+          </p>
+          <p>
+            <a href="#design">Design</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p><i class="fas fa-map-pin mr-4"></i> Indramayu, Indonesia</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> dimasaddriansyah14gmail.com
+          </p>
+          <p><i class="fas fa-phone mr-3"></i> +62 895 1439 1356</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Footer links -->
+    </div>
+    <!-- Footer Links -->
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script>
+    new Typed("#typed", {
+      strings: ["UI UX Designer Beginner", "Web Developer"],
+      typeSpeed: 20,
+      backSpeed: 20,
+      delaySpeed: 30,
+      loop: true,
+      cursorChar: '|',
+    });
+  </script>
+  <script type="text/javascript" src="/js/tilt.jquery.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+      max: 10,
+      speed: 2500
+    });
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 10,
+      speed: 2500
+    });
+  </script>
+</body>
+
 </html>
