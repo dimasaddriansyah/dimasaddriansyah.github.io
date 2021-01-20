@@ -31,20 +31,20 @@ body {
                 color: $blues;
             }
 
-            
-        padding-top: 10px;
-        padding-bottom: 10px;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
     }
 
     section {
-        p{
+        p {
             line-height: 200%;
             color: #acacac;
             text-align: justify;
         }
 
-        h5{
+        h5 {
             line-height: 200%;
             color: #acacac;
             text-align: justify;
@@ -98,11 +98,11 @@ body {
     background-color:#ffffff;
 }
 
-footer{
-    a{
+footer {
+    a {
         color: $whites;
 
-        &:hover{
+        &:hover {
             color: $blues;
             text-decoration: none;
         }
@@ -111,15 +111,15 @@ footer{
     padding-bottom: 50px;
 }
 
-.p-skill{
+.p-skill {
     width: 450px;
 }
 
-.space{
+.space {
     margin-top: 165px;
 }
 
-.space-section{
+.space-section {
     margin-top: 20px;
 }
 
@@ -161,4 +161,48 @@ footer{
 .btn-outline-blue:focus,
 .btn-outline-blue.focus {
     box-shadow: 0 0 0 0.2rem rgba(41, 181, 224, 0.5);
+}
+
+.tengah {
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    width: max-content;
+}
+
+.box {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.card:hover .box,
+.card.active .box {
+	opacity: 1;
 }
