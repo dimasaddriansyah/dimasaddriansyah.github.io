@@ -1,0 +1,15 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+  .hero-image {
+    margin-top: -500px;
+    text-align: center;
+  }
+  .hero-text {
+    margin-top: 350px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

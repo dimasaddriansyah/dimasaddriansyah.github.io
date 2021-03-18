@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Portofolio | Dimas Addriansyah</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <!-- Bootstrap Icon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- AOS Animate On Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dimas Addriansyah</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Poject</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">Design</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="mt-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 align-self-center">
+                    <div class="hero-text">
+                        <h3>Hi, I'm Dimas Addriansyah</h3>
+                        <h1 class="mt-2"><span id="typed"></span></h1>
+                        <a class="btn btn-primary mt-5 p-3" id="contact" href="mailto:dimasaddriansyah14@gmail.com">
+                            Contact Me
+                        </a>
+                        <a class="btn btn-outline-primary mt-5 ms-3 p-3" id="contact" href="CV Dimas.pdf">
+                            <i class="bi bi-download me-1"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 d-flex justify-content-center">
+                    <div class="hero-image">
+                        <img src="img/dims.png" alt="dimasaddriansyah" width="60%" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"
+        integrity="sha512-14AZ/DxUrlF26z6v7egDkpJHKyJRn/7ue2BgpWZ/fmqrqVzf4PrQnToy99sHmKwzKev/VZ1tjPxusuTV/n8CcQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous"></script>
+    <script>
+        new Typed("#typed", {
+            strings: ["UI UX Designer", "Web Developer"],
+            typeSpeed: 20,
+            backSpeed: 20,
+            delaySpeed: 30,
+            loop: true,
+            cursorChar: "|",
+        });
+    </script>
+</body>
+
+</html>
