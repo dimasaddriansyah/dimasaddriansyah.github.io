@@ -2,28 +2,25 @@
 <html lang="EN">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Portofolio | Dimas Addriansyah</title>
 
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
-    <!-- Bootstrap Icon CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- AOS Animate On Scroll CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="scss/style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-3">
+<body id="home" class="space-nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue py-3 fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Dimas Addriansyah</a>
+            <a class="navbar-brand text-blue" href="#home">Dimas Addriansyah</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,36 +29,39 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-3" href="#">About</a>
+                        <a class="nav-link px-3" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3" href="#">Poject</a>
+                        <a class="nav-link px-3" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3" href="#">Design</a>
+                        <a class="nav-link px-3" href="#project">Poject</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#design">Design</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="hero" class="mt-lg-5">
+    <section id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 align-self-center">
                     <div class="hero-text">
-                        <h3>Hi, I'm Dimas Addriansyah</h3>
-                        <h1 class="mt-2"><span id="typed"></span></h1>
-                        <a class="btn btn-primary mt-5 p-3" id="contact" href="mailto:dimasaddriansyah14@gmail.com">
+                        <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
+                        <h1 class="mt-2 text-grey"><span id="typed"></span></h1>
+                        <a class="btn btn-blue mt-5 p-3" id="contact" href="mailto:dimasaddriansyah14@gmail.com">
                             Contact Me
                         </a>
-                        <a class="btn btn-outline-primary mt-5 ms-3 p-3" id="contact" href="CV Dimas.pdf">
+                        <a class="btn btn-outline-blue mt-5 ms-3 p-3" id="contact" href="CV Dimas.pdf">
                             <i class="bi bi-download me-1"></i> Download CV
                         </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 d-flex justify-content-center">
-                    <div class="hero-image">
+                <div class="col-md-6 col-lg-6">
+                    <div class="hero-image text-center">
                         <img src="img/dims.png" alt="dimasaddriansyah" width="60%" class="img-fluid">
                     </div>
                 </div>
@@ -69,7 +69,262 @@
         </div>
     </section>
 
-    <!-- Bootstrap Bundle with Popper -->
+    <section id="about">
+        <div class="container">
+            <h1 class="text-center text-blue space-nav">
+                About me
+            </h1>
+            <div class="row space-title">
+                <div class="col-md-6 text-center mt-5">
+                    <img src="img/dims.png" alt="dimasaddriansyah" width="60%" />
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <p class="text-about">
+                        I’m from Indonesia and I studying at Polytechnic Indramayu
+                        Department Software Engineering. I am interested in the world of
+                        UI UX Design because in my opinion UI UX Design requires skills in
+                        terms of user satisfaction so that the application used can last a
+                        long time and is not boring. I live in Indramayu, West Java
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center text-blue space-nav">
+                Skills & Tools
+            </h1>
+            <div class="row space-title">
+                <div class="col-md-6 align-self-center">
+                    <p class="text-skills">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusantium, deleniti libero animi, molestiae beatae qui autem
+                        possimus optio eum dolor reprehenderit magni, quis inventore?
+                        Minima perferendis voluptatem cum recusandae eveniet.
+                    </p>
+                </div>
+                <div class="col-md-6 space-title">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="tengah">
+                                <img class="img-fluid" src="img/logo/GithubLogo.svg" alt="Github" />
+                                <p class="text-center mt-2">Github</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="tengah">
+                                <img class="img-fluid" src="img/logo/FigmaLogo.svg" alt="Figma" />
+                                <p class="text-center mt-2">Figma</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="tengah">
+                                <img class="img-fluid" src="img/logo/VSCLogo.svg" alt="Visual Studio Code" />
+                                <p class="text-center mt-2">Visual Studio Code</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="tengah">
+                                <img class="img-fluid" src="img/logo/LaravelLogo.svg" alt="Laravel" />
+                                <p class="text-center mt-2">Laravel</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="tengah">
+                                <img class="img-fluid" src="img/logo/BootstrapLogo.svg" alt="Bootstrap" />
+                                <p class="text-center mt-2">Bootstrap</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="tengah">
+                                <img class="img-fluid" src="img/logo/HtmlLogo.svg" alt="HTML" />
+                                <p class="text-center mt-2">HTML</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="tengah">
+                                <img class="img-fluid" src="img/logo/CssLogo.svg" alt="CSS" />
+                                <p class="text-center mt-2">CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="container">
+            <h1 class="text-center text-blue space-nav">
+                Selected Project
+            </h1>
+            <div class="row space-title">
+                <div class="col-md-6">
+                    <a href="#" class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+                            <div class="box">
+                                <div class="text">
+                                    <h3 style="color: #52ceff">Owls Beauty Skin</h3>
+                                    <h5 class="text-white">HTML + Bootstrap</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="img/Addriansyah Shop.PNG" alt="Addriansyah Shop" />
+                            <div class="box">
+                                <div class="text">
+                                    <h3 style="color: #52ceff">Addriansyah Shop</h3>
+                                    <h5 class="text-white">Laravel + Bootstrap</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <a href="#" class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="img/POS Zahira.jpg" alt="POS Toko Zahira" />
+                            <div class="box">
+                                <div class="text">
+                                    <h3 style="color: #52ceff">POS Toko Zahira</h3>
+                                    <h5 class="text-white">Laravel + Bootstrap</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <a href="#" class="card">
+                        <div class="card-body">
+                            <img class="img-fluid" src="img/Pengobatan Alternatif.PNG"
+                                alt="Sistem Pemesanan Pengobatan Alternatif" />
+                            <div class="box">
+                                <div class="text">
+                                    <h3 style="color: #52ceff">
+                                        Sistem Pemesanan Pengobatan Alternatif
+                                    </h3>
+                                    <h5 class="text-white">Laravel + Bootstrap</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="btn btn-blue all">
+                View all project <i class="fas fa-angle-double-right fa-sm"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="design">
+        <div class="container">
+            <h1 class="text-center text-blue space-nav">
+                Selected Design
+            </h1>
+            <div class="row space-title">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid mb-5" src="img/Preview 1.jpg"
+                                alt="Sistem Pemesanan Pengobatan Alternatif Care" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-blue all">
+                View all design <i class="fas fa-angle-double-right fa-sm"></i>
+            </button>
+        </div>
+    </section>
+
+    <footer class="page-footer font-small bg-dark pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left mt-3 pb-3">
+                <hr class="w-100 clearfix d-md-none" />
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-start">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">
+                        Social Media
+                    </h6>
+                    <p>
+                        <a href="https://api.whatsapp.com/send?phone=6289514391356" target="_blank" title="Whatsapp"><i
+                                class="bi bi-whatsapp me-3"></i>0895 1439 1356</a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/dimasaddriansyah" target="_blank" title="Instagram"><i
+                                class="bi bi-instagram me-3"></i>dimasaddriansyah</a>
+                    </p>
+                    <p>
+                        <a href="https://dribbble.com/addriansyah" target="_blank" title="Dribble"><i
+                                class="fas fa-basketball-ball me-3"></i>addriansyah</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/dimasaddriansyah" target="_blank" title="Github"><i
+                                class="bi bi-github me-3"></i>dimasaddriansyah</a>
+                    </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none" />
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 text-white text-start">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Navigation
+                    </h6>
+                    <p>
+                        <a href="#about">About</a>
+                    </p>
+                    <p>
+                        <a href="#skills">Skills</a>
+                    </p>
+                    <p>
+                        <a href="#project">Project</a>
+                    </p>
+                    <p>
+                        <a href="#design">Design</a>
+                    </p>
+                </div>
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white text-start">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="bi bi-geo me-3"></i>Indramayu, Indonesia</p>
+                    <p>
+                        <i class="bi bi-envelope-open me-3"></i>dimasaddriansyah14@gmail.com
+                    </p>
+                    <p><i class="bi bi-telephone-fill me-3"></i>0895 1439 1356 (Phone)</p>
+                    <p><i class="bi bi-whatsapp me-3"></i>0895 1439 1356 (Whatsapp)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -89,6 +344,13 @@
             delaySpeed: 30,
             loop: true,
             cursorChar: "|",
+        });
+
+        $(document).ready(function () {
+            $('ul li a').click(function () {
+                $('li a').removeClass("active");
+                $(this).addClass("active");
+            });
         });
     </script>
 </body>

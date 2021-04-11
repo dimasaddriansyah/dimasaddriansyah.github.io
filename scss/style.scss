@@ -1,14 +1,142 @@
-body{
+$blue : #07689f;
+
+body {
     font-family: 'Poppins', sans-serif;
 }
 
+li a{
+    font-weight: 500;
+    color: #333 !important;
+}
+
+li a:hover{
+    font-weight: 500;
+    color: $blue !important;
+}
+
+nav .navbar-brand {
+    font-weight: 500;
+}
+
+section {
+    margin-top: 10em;
+
+    p {
+        line-height: 200%;
+        color: #aeaeae;
+        text-align: justify;
+    }
+
+    .text-skills {
+        width: 450px;
+    }
+
+    .tengah {
+        margin-left: auto;
+        margin-right: auto;
+        height: max-content;
+        width: max-content;
+    }
+}
+
+.bg-blue{
+    background-color: #f8f9fa;
+}
+
+.text-blue {
+    color: $blue !important;
+}
+
+.text-grey {
+    color: #333;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: $blue;
+    border-color: $blue;
+}
+
+.btn-blue:hover {
+    color: #fff;
+    background-color: $blue;
+    border-color: $blue;
+}
+
+.btn-blue:focus,
+.btn-blue.focus {
+    color: #fff;
+    background-color: $blue;
+    border-color: $blue;
+    box-shadow: 0 0 0 0.2rem #196c9c;
+}
+
+.btn-outline-blue {
+    color: $blue;
+    border: 3px $blue solid;
+}
+
+.btn-outline-blue:hover {
+    color: #fff;
+    background-color: $blue;
+    border-color: $blue;
+}
+
+.btn-outline-blue:focus,
+.btn-outline-blue.focus {
+    box-shadow: 0 0 0 0.2rem #196c9c;
+}
+
+
+#about {
+    margin-top: 10em;
+}
+
+#skills {
+    margin-top: 10em;
+}
+
+.space-title {
+    margin-top: 3em;
+}
+
+.space-nav {
+    padding-top: 3em;
+}
+
+.active {
+    color: $blue !important;
+}
+
+footer {
+    margin-top: 10em;
+    text-decoration: none;
+    font-size: 0.85em;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+
+
+
+
+
 @media (min-width: 0px) and (max-width: 992px) {
-    .hero-image{
-        margin-top: -500px;
+    .hero-image {
+        margin-top: -33em;
         text-align: center;
     }
-    .hero-text{
-        margin-top: 350px;
+
+    .hero-text {
+        margin-top: 13em;
         text-align: center;
     }
+
+    .text-about {
+        margin-top: 2em;
+    }
+
 }
