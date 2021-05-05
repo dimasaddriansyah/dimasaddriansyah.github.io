@@ -2,391 +2,294 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portofolio | Dimas Addriansyah</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="htmlcss bootstrap menu, scrollspy, navbar scroll, menu CSS examples" />
+  <meta name="description"
+    content="Bootstrap 5 navbar link on click go to section with id, with smooth scroll animation effect, html css source code" />
+  <title>Dimas Addriansyah | Portofolio</title>
+  <!-- Poppins Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/scss/main.css" />
-  <script src="/js/typed.js"></script>
+
 </head>
 
-<body>
-  <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
-    <div class="container">
-      <a class="navbar-brand text-blue">Dimas Addriansyah</a>
-      <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
-        type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="nav navbar-nav ml-auto text-capitalize">
-          <li class="nav-item" role="presentation">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link js-scroll-trigger" href="#project">Project</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link js-scroll-trigger" href="#design">Design</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <section id="contact">
-    <div class="container space">
-      <!-- Desktop -->
-      <div class="d-none d-md-block">
-        <div class="row">
-          <div class="col-md-6 col-lg-6 align-self-center" data-aos="fade-right" data-aos-anchor-placement="left-right"
-            data-aos-duration="1500">
-            <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
-            <h1 class="mt-2"><span id="typed"></span></h1>
-            <a class="btn btn-blue mt-5 custombtn" id="contact" href="mailto:dimasaddriansyah14@gmail.com">
-              Contact Me
-            </a>
-            <a class="btn btn-outline-blue mt-5 ml-3 custombtn" id="contact" href="CV Dimas Addriansyah Pamungkas.pdf">
-              <i class="bi bi-download mr-1"></i> Download CV
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 d-flex justify-content-center" data-aos="fade-left"
-            data-aos-anchor-placement="left-right" data-aos-duration="1500">
-            <img src="img/dims.png" alt="dimasaddriansyah" width="60%"/ class="tilt">
-          </div>
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" data-bs-offset="0" tabindex="0">
+  <!-- ============= Hero ============== -->
+  <section id="hero">
+    <!-- ============= Navbar ============== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand blue-gray" href="#">Dimas Addriansyah</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#proyek">Proyek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#desain">Desain</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <!-- ============= Navbar ============== -->
 
-      <!-- Mobile -->
-      <div class="d-md-none d-sm-block">
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-6">
-            <center>
-              <img class="img-fluid" src="img/dimas.png" alt="dimasaddriansyah" width="300px" />
-            </center>
+    <div class="container container-top">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 align-self-center" data-aos="fade-right" data-aos-duration="1500">
+          <div class="hero-text">
+            <h4 class="blue-gray">Hi, Saya Dimas Addriansyah</h4>
+            <h1 class="mt-2 text-grey"><span id="typed"></span></h1>
+            <a class="btn btn-blue mt-5 p-3" id="contact" href="mailto:dimasaddriansyah14@gmail.com">
+              Kontak Saya
+            </a>
+            <a class="btn btn-outline-blue mt-5 ms-3 p-3" id="contact" href="CV Dimas.pdf">
+              <i class="fas fa-download me-2"></i> Download CV
+            </a>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 mt-5 text-center">
-            <h3 class="text-blue">Hi, I'm Dimas Addriansyah</h3>
-            <h1 class="mt-2">
-              <span id="typed" style="display: inline"></span>
-            </h1>
-            <a class="btn btn-blue mt-4 custombtn" id="contact" href="mailto:dimasaddriansyah14@gmail.com">Contact
-              Me</a>
+        </div>
+        <div class="col-md-6 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
+          <div class="hero-image text-center">
+            <img src="img/dims.png" alt="dimasaddriansyah" width="60%" class="img-fluid" />
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- ============= Hero ============== -->
 
-  <section id="about">
-    <div class="container space">
-      <h1 class="mb-lg-5 text-blue text-center" data-aos="zoom-in-up" data-aos-duration="850">
-        About me
-      </h1>
-      <div class="row space-section">
-        <div class="col-md-6 d-flex justify-content-center" data-aos="fade-left" data-aos-anchor-placement="left-right"
-          data-aos-duration="1500">
+  <!-- ============= Tentang Saya ============== -->
+  <section id="tentang">
+    <div class="container container-space">
+      <h1 class="text-center blue2 mb-5" data-aos="zoom-in-up" data-aos-duration="850">Tentang Saya</h1>
+      <div class="row">
+        <div class="col-md-6 text-center mt-3" data-aos="zoom-in-up" data-aos-duration="1000">
           <img src="img/dims.png" alt="dimasaddriansyah" width="60%" />
         </div>
-        <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-anchor-placement="left-right"
-          data-aos-duration="1500">
-          <p>
-            I’m from Indonesia and I studying at Polytechnic Indramayu
-            Department Software Engineering. I am interested in the world of
-            UI UX Design because in my opinion UI UX Design requires skills in
-            terms of user satisfaction so that the application used can last a
-            long time and is not boring. I live in Indramayu, West Java
+        <div class="col-md-6 align-self-center" data-aos="zoom-in-up" data-aos-duration="1000">
+          <p class="text gray">
+            Saya Dimas Addriansyah Pamungkas mahasiswa semester 6 dan sedang berkuliah di Politeknik Negeri
+            Indramayu Prodi
+            Rekayasa
+            Perangkat Lunak. Saya tertarik di bidang UI/UX Design karena menurut saya UI/UX Design
+            membutuhkan
+            keterampilan yang unik untuk kepuasan pengguna agar aplikasi yang digunakan dapat bertahan
+            lama dan tidak membosankan. Saya tinggal di Indramayu, Jawa Barat
           </p>
         </div>
       </div>
     </div>
   </section>
+  <!-- ============= Tentang Saya ============== -->
 
-  <section id="skills">
-    <div class="container space">
-      <h1 class="mb-lg-5 text-blue text-center" data-aos="zoom-in-up" data-aos-duration="850">
-        Skills & Tools
-      </h1>
-      <div class="row space-section">
-        <div class="col-md-6 align-self-center" data-aos="fade-right" data-aos-anchor-placement="right-left"
-          data-aos-duration="1500">
-          <p class="p-skill text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium, deleniti libero animi, molestiae beatae qui autem
-            possimus optio eum dolor reprehenderit magni, quis inventore?
-            Minima perferendis voluptatem cum recusandae eveniet.
-          </p>
+  <!-- ============= Skill ============== -->
+  <section id="skill">
+    <div class="container container-space">
+      <h1 class="text-center blue2" data-aos="zoom-in-up" data-aos-duration="850">Skill dan Tool</h1>
+      <p class="text-center gray pb-4" data-aos="zoom-in-up" data-aos-duration="900">
+        Beberapa tools yang saya pakai untuk membantu pekerjaan saya
+      </p>
+      <div class="row mt-5">
+        <div class="tengah" data-aos="zoom-in-up" data-aos-duration="1300">
+          <img class="img-fluid" src="img/logo/GithubLogo.svg" alt="Github" />
+          <p class="text-center text-muted mt-2">Github</p>
+        </div>
+        <div class="tengah" data-aos="zoom-in-up" data-aos-duration="1300">
+          <img class="img-fluid" src="img/logo/FigmaLogo.svg" alt="Figma" />
+          <p class="text-center text-muted mt-2">Figma</p>
+        </div>
+        <div class="tengah" data-aos="zoom-in-up" data-aos-duration="1300">
+          <img class="img-fluid" src="img/logo/VSCLogo.svg" alt="Visual Studio Code" />
+          <p class="text-center text-muted mt-2">Visual Studio Code</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="tengah" data-aos="zoom-in-up" data-aos-duration="1500">
+          <img class="img-fluid" src="img/logo/LaravelLogo.svg" alt="Laravel" />
+          <p class="text-center text-muted mt-2">Laravel</p>
+        </div>
+        <div class="tengah" data-aos="zoom-in-up" data-aos-duration="1500">
+          <img class="img-fluid" src="img/logo/BootstrapLogo.svg" alt="Bootstrap" />
+          <p class="text-center text-muted mt-2">Bootstrap</p>
+        </div>
+        <div class="tengah" data-aos="zoom-in-up" data-aos-duration="1500">
+          <img class="img-fluid" src="img/logo/HtmlLogo.svg" alt="HTML" />
+          <p class="text-center text-muted mt-2">HTML</p>
+        </div>
+        <div class="tengah" data-aos="zoom-in-up" data-aos-duration="1500">
+          <img class="img-fluid" src="img/logo/CssLogo.svg" alt="CSS" />
+          <p class="text-center text-muted mt-2">CSS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============= Skill ============== -->
+
+  <!-- ============= Proyek ============== -->
+  <section id="proyek">
+    <div class="container container-space">
+      <h1 class="text-center blue2">Proyek</h1>
+      <p class="text-center gray pb-4">Proyek yang pernah saya buat</p>
+      <div class="row space-title">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/Pengobatan Alternatif.PNG"
+                alt="Sistem Pemesanan Pengobatan Alternatif Care" />
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <div class="row">
-            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="tengah">
-                <img class="img-fluid" data-tilt data-tilt-scale="1.1" src="img/logo/GithubLogo.svg" alt="Github" />
-                <p class="text-center mt-2">Github</p>
-              </div>
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/Addriansyah Shop.PNG" alt="OWLS Beauty Skin Care" />
             </div>
-            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="tengah">
-                <img class="img-fluid" data-tilt data-tilt-scale="1.1" src="img/logo/FigmaLogo.svg" alt="Figma" />
-                <p class="text-center mt-2">Figma</p>
-              </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
             </div>
-            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1200">
-              <div class="tengah">
-                <img class="img-fluid" data-tilt data-tilt-scale="1.1" src="img/logo/VSCLogo.svg"
-                  alt="Visual Studio Code" />
-                <p class="text-center mt-2">Visual Studio Code</p>
-              </div>
-            </div>
-            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1800">
-              <div class="tengah">
-                <img class="img-fluid" data-tilt data-tilt-scale="1.1" src="img/logo/LaravelLogo.svg" alt="Laravel" />
-                <p class="text-center mt-2">Laravel</p>
-              </div>
-            </div>
-            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1800">
-              <div class="tengah">
-                <img class="img-fluid" data-tilt data-tilt-scale="1.1" src="img/logo/BootstrapLogo.svg"
-                  alt="Bootstrap" />
-                <p class="text-center mt-2">Bootstrap</p>
-              </div>
-            </div>
-            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="2500">
-              <div class="tengah">
-                <img class="img-fluid" data-tilt data-tilt-scale="1.1" src="img/logo/HtmlLogo.svg" alt="HTML" />
-                <p class="text-center mt-2">HTML</p>
-              </div>
-            </div>
-            <div class="col-md-12" data-aos="zoom-in-up" data-aos-duration="2500">
-              <div class="tengah">
-                <img class="img-fluid" data-tilt data-tilt-scale="1.1" src="img/logo/CssLogo.svg" alt="CSS" />
-                <p class="text-center mt-2">CSS</p>
-              </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid mb-5" src="img/POS Zahira.jpg" alt="OWLS Beauty Skin Care" />
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="project">
-    <div class="container space">
-      <h1 class="mb-lg-5 text-blue text-center" data-aos="fade-right" data-aos-duration="850">
-        Selected Project
-      </h1>
-      <div class="row space-section">
-        <div class="col-md-6">
-          <a href="#" class="card efek" data-aos="zoom-in-up" data-aos-duration="1200">
-            <div class="card-body">
-              <img class="img-fluid" src="img/Preview 1.jpg" alt="OWLS Beauty Skin Care" />
-              <div class="box">
-                <div class="text">
-                  <h3 style="color: #52ceff">Owls Beauty Skin</h3>
-                  <h5 class="text-white">HTML + Bootstrap</h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a href="#" class="card efek" data-aos="zoom-in-up" data-aos-duration="1200">
-            <div class="card-body">
-              <img class="img-fluid" src="img/Addriansyah Shop.PNG" alt="Addriansyah Shop" />
-              <div class="box">
-                <div class="text">
-                  <h3 style="color: #52ceff">Addriansyah Shop</h3>
-                  <h5 class="text-white">Laravel + Bootstrap</h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6 mt-4">
-          <a href="#" class="card efek" data-aos="zoom-in-up" data-aos-duration="1200">
-            <div class="card-body">
-              <img class="img-fluid" src="img/POS Zahira.jpg" alt="POS Toko Zahira" />
-              <div class="box">
-                <div class="text">
-                  <h3 style="color: #52ceff">POS Toko Zahira</h3>
-                  <h5 class="text-white">Laravel + Bootstrap</h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6 mt-4">
-          <a href="#" class="card efek" data-aos="zoom-in-up" data-aos-duration="1200">
-            <div class="card-body">
-              <img class="img-fluid" src="img/Pengobatan Alternatif.PNG" alt="Sistem Pemesanan Pengobatan Alternatif" />
-              <div class="box">
-                <div class="text">
-                  <h3 style="color: #52ceff">
-                    Sistem Pemesanan Pengobatan Alternatif
-                  </h3>
-                  <h5 class="text-white">Laravel + Bootstrap</h5>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <center>
-        <button class="btn btn-blue all" data-aos="zoom-in" data-aos-duration="1000">
-          View all project <i class="fas fa-angle-double-right fa-sm"></i>
+      <div class="text-center pt-5">
+        <button class="btn btn-blue">
+          Lihat semua <i class="fas fa-chevron-right ms-2"></i>
         </button>
-      </center>
+      </div>
     </div>
   </section>
+  <!-- ============= Proyek ============== -->
 
-  <section id="design">
-    <div class="container space">
-      <h1 class="mb-lg-5 text-blue text-center" data-aos="fade-right" data-aos-duration="850">
-        Selected Design
-      </h1>
-      <div class="row space-section">
+  <!-- ============= Desain ============== -->
+  <section id="desain">
+    <div class="container container-space">
+      <h1 class="text-center blue2">Desain</h1>
+      <p class="text-center gray pb-4">Desain yang pernah saya buat</p>
+      <div class="row space-title">
         <div class="col-md-6">
-          <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
+          <div class="card">
             <div class="card-body">
-              <img class="img-fluid mb-5" src="img/Design/Bekam.png" alt="Aplikasi Kesehatan" height="3200px" width="2400px"/>
+              <img class="img-fluid" src="img/Design/Bekam.png" alt="Desain Bekam" />
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card" data-aos="zoom-in-up" data-aos-duration="1200">
+          <div class="card">
             <div class="card-body">
-              <img class="img-fluid mb-5" src="img/Design/Furniture 1.jpg" alt="Aplikasi Furniture" height="3200px" width="2400px"/>
+              <img class="img-fluid" src="img/Design/T-Shop.png" alt="Desain Toko Baju Tradisioanl" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid" src="img/Design/Bekam.png" alt="Desain Bekam" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="img-fluid" src="img/Design/T-Shop.png" alt="Desain Toko Baju Tradisioanl" />
             </div>
           </div>
         </div>
       </div>
-      <div class="row two">
-        <div class="col-md-6">
-          <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
-            <div class="card-body">
-              <img class="img-fluid mb-5" src="img/Design/T-Shop.png" alt="Aplikasi Toko Tradisional" height="3200px" width="2400px"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card" data-aos="zoom-in-up" data-aos-duration="1400">
-            <div class="card-body">
-              <img class="img-fluid mb-5" src="img/Design/Castle.png" alt="Aplikasi Pencari Kastil" height="3200px" width="2400px"/>
-            </div>
-          </div>
-        </div>
+      <div class="text-center pt-5">
+        <button class="btn btn-blue">
+          Lihat semua <i class="fas fa-chevron-right ms-2"></i>
+        </button>
       </div>
     </div>
-    <center>
-      <button class="btn btn-blue all" data-aos="zoom-in" data-aos-duration="1000">
-        View all design <i class="fas fa-angle-double-right fa-sm"></i>
-      </button>
-    </center>
   </section>
+  <!-- ============= Desain ============== -->
 
-  <footer class="page-footer font-small bg-dark pt-4 space">
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-      <!-- Footer links -->
-      <div class="row text-center text-md-left mt-3 pb-3">
-        <!-- Grid column -->
+  <!-- ============= Footer ============== -->
+  <footer class="font-small bg-dark pt-4 pb-4">
+    <div class="container text-center">
+      <div class="row text-center mt-3 pb-3">
         <hr class="w-100 clearfix d-md-none" />
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold text-white">
-            Social Media
-          </h6>
-          <p>
-            <a href="https://api.whatsapp.com/send?phone=6289514391356" target="_blank" title="Whatsapp"><i
-                class="bi bi-whatsapp mr-1"></i> 0895 1439 1356</a>
-          </p>
-          <p>
-            <a href="https://www.instagram.com/dimasaddriansyah" target="_blank" title="Instagram"><i
-                class="bi bi-instagram mr-1"></i> dimasaddriansyah</a>
-          </p>
-          <p>
-            <a href="https://github.com/dimasaddriansyah" target="_blank" title="Github"><i
-                class="bi bi-github mr-1"></i> dimasaddriansyah</a>
-          </p>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white text-start">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Social Media<h6>
+              <p><a href="https://api.whatsapp.com/send?phone=6289514391356" class="text-white" target="_blank"
+                  title="Whatsapp"><i class="fab fa-whatsapp me-2"></i>0895 1439
+                  1356</a></p>
+              <p><a href="https://www.instagram.com/dimasaddriansyah" target="_blank" title="Instagram"><i
+                    class="fab fa-instagram me-2"></i>dimasaddriansyah</a></p>
+              <p><a href="https://www.instagram.com/dims.ui" target="_blank" title="Instagram"><i
+                    class="fab fa-instagram me-2"></i>dims.ui</a></p>
+              <p><a href="https://dribbble.com/addriansyah" target="_blank" title="Dribble"><i
+                    class="fab fa-dribbble me-2"></i>addriansyah</a></p>
+              <p><a href="https://github.com/dimasaddriansyah" target="_blank" title="Github"><i
+                    class="fab fa-github me-2"></i>dimasaddriansyah</a></p>
         </div>
-        <!-- Grid column -->
 
         <hr class="w-100 clearfix d-md-none" />
 
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold text-white">
-            Navigation
-          </h6>
-          <p>
-            <a href="#about">About</a>
-          </p>
-          <p>
-            <a href="#project">Project</a>
-          </p>
-          <p>
-            <a href="#design">Design</a>
-          </p>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white text-start">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Navigation</h6>
+          <p><a href="#tentang">Tentang Saya</a></p>
+          <p><a href="#skill">Skill</a></p>
+          <p><a href="#proyek">Proyek</a></p>
+          <p><a href="#desain">Desain</a></p>
         </div>
 
-        <!-- Grid column -->
         <hr class="w-100 clearfix d-md-none" />
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-          <p><i class="fas fa-map-pin mr-4"></i> Indramayu, Indonesia</p>
-          <p>
-            <i class="fas fa-envelope mr-3"></i> dimasaddriansyah14gmail.com
-          </p>
-          <p><i class="bi bi-telephone-fill mr-3"></i> +62 895 1439 1356</p>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white text-start">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Kontak Saya</h6>
+          <p><i class="fas fa-street-view me-2"></i>Indramayu, Indonesia</p>
+          <p><i class="fas fa-phone-alt me-2"></i>0895 1439 1356 (Phone)</p>
+          <p><i class="fab fa-whatsapp me-2"></i>0895 1439 1356 (Whatsapp)</p>
+          <p><i class="fas fa-envelope me-2"></i>dimasaddriansyah14@gmail.com</p>
         </div>
-        <!-- Grid column -->
       </div>
-      <!-- Footer links -->
     </div>
-    <!-- Footer Links -->
   </footer>
+  <!-- ============= Footer ============== -->
 
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
-  <script>
-    new Typed("#typed", {
-      strings: ["Beginner UI UX Designer", "Web Developer"],
-      typeSpeed: 20,
-      backSpeed: 20,
-      delaySpeed: 30,
-      loop: true,
-      cursorChar: "|",
-    });
-  </script>
-  <script type="text/javascript" src="/js/tilt.jquery.js"></script>
-  <script type="text/javascript">
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-      max: 10,
-      speed: 2500,
-    });
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-      max: 10,
-      speed: 2500,
-    });
-  </script>
+  <script src="js/custom.js"></script>
+
 </body>
 
 </html>

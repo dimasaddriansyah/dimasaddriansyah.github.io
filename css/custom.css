@@ -1,0 +1,124 @@
+body {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+footer {
+  margin-top: 670px;
+  font-weight: 300;
+}
+
+footer p a:hover{
+  color: #5885af !important;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+
+}
+
+.nav-link{
+    color: #c4c4c4 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+  color: #5885af !important;
+}
+
+
+#desain {
+  margin-top: 400px;
+}
+
+#skill .gray{
+    font-weight: 300;
+}
+
+#proyek .gray{
+    font-weight: 300;
+}
+
+#desain .gray{
+    font-weight: 300;
+}
+
+.container-top {
+  padding-top: 180px;
+}
+
+.container-space {
+  padding-top: 120px;
+}
+
+.text {
+  line-height: 200%;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.tengah {
+  margin-left: auto;
+  margin-right: auto;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.tengah p {
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+.gray{
+  color: #82807F !important;
+}
+
+.blue {
+  color: #274472 !important;
+}
+
+.blue2{
+    color: #41729f !important;
+}
+
+.active {
+  color: #5885af !important;
+}
+
+.blue-gray {
+  color: #5885af !important;
+}
+
+.bg-custom{
+    background-color: #fff;
+}
+
+.btn-blue {
+  background-color: #41729f;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #1c5e9b;
+  color: #fff;
+}
+
+.btn-outline-blue {
+  border: 1px solid #41729f;
+  color: #1c5e9b;
+}
+
+.btn-outline-blue:hover {
+  background-color: #1c5e9b;
+  color: #fff;
+}
