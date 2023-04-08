@@ -981,8 +981,9 @@ button:not(:disabled) {
 
 .nav-pills .nav-link {
     color: #161c2d !important;
-    margin: auto 15px;
-    border: 1px solid #e9ecef
+    /* padding: 12px; */
+    /* margin: auto 15px; */
+    /* border: 1px solid #e9ecef */
 }
 
 .nav-pills .nav-link.active {
@@ -1580,7 +1581,7 @@ p {
     }
 
     .portfolio-content{
-        padding: 24px 24px 0px 24px;
+        padding: 24px 24px 24px 24px;
     }
 }
 
@@ -2071,6 +2072,10 @@ p {
     border-color: #f89d36 !important
 }
 
+.portfolio-content-paragraph{
+    font-size: 16px;
+}
+
 .portfolio-box {
     transition: all 0.2s ease
 }
@@ -2527,8 +2532,10 @@ ul .t-ltr-dark {
     }
 }
 
-.list-group-item-child{
-    padding-left: 32px !important;
+.divider{
+    width: 240px;
+    border-top: 3px dashed #fff;
 }
+
 
 /*# sourceMappingURL=style.min.css.map */

@@ -96,3 +96,7 @@ a.text-primary:focus {
     background-color: #0056b3 !important;
         border-color: #0056b3 !important;
 }
+
+a.nav-link.active{
+    font-weight: bold;
+}

@@ -22,7 +22,7 @@
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="64">
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="128">
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -198,25 +198,20 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-3 col-md-4 mt-4 d-none d-lg-block">
+                <div class="col-lg-3 col-md-4 mt-4 d-none d-lg-block border-end">
                     <div id="list-example" class="list-group sticky-sidebar rounded">
-                        <a class="list-group-item list-group-item-action px-3 py-3" href="#project-overview">Project
-                            Overview</a>
-                        <div>
-                            <a class="list-group-item list-group-item-action px-3 py-3" href="#design-process">Design
-                                Process</a>
-                            <a class="list-group-item list-group-item-child list-group-item-action px-3 py-3"
-                                href="#define">Define</a>
-                            <a class="list-group-item list-group-item-child list-group-item-action px-3 py-3"
-                                href="#empathize">Empathize</a>
-                            <a class="list-group-item list-group-item-child list-group-item-action px-3 py-3"
-                                href="#ideate">Ideate</a>
-                            <a class="list-group-item list-group-item-child list-group-item-action px-3 py-3"
-                                href="#prototype">Prototype</a>
-                            <a class="list-group-item list-group-item-child list-group-item-action px-3 py-3"
-                                href="#validate">Validate</a>
-                        </div>
-                        <a class="list-group-item list-group-item-action px-3 py-3" href="#concultion">Conculsion</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link py-3" href="#project-overview">Project Overview</a>
+                            <a class="nav-link py-3" href="#design-process">Design Process</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1 py-3" href="#define">Define</a>
+                                <a class="nav-link ms-3 my-1 py-3" href="#empathize">Empathize</a>
+                                <a class="nav-link ms-3 my-1 py-3" href="#ideate">Ideate</a>
+                                <a class="nav-link ms-3 my-1 py-3" href="#prototype">Prototype</a>
+                                <a class="nav-link ms-3 my-1 py-3" href="#validate">Validate</a>
+                            </nav>
+                            <a class="nav-link py-3" href="#concultion">Conculsion</a>
+                        </nav>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
@@ -226,62 +221,77 @@
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
-                                    <h4>Project Overview</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Veniam odit voluptate
-                                        nobis
-                                        voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
-                                        aliquam
-                                        aliquid aut, facilis praesentium minima deserunt cumque obcaecati ut, distinctio
-                                        quos
-                                        fugit
-                                        eveniet illo! Eligendi possimus consequuntur numquam consequatur esse
-                                        necessitatibus
-                                        aspernatur sit reiciendis, porro, quae velit recusandae nostrum vel, minima
-                                        perferendis
-                                        cumque obcaecati maxime voluptatem quo iure voluptas totam! Sunt laborum facilis
-                                        dolorem
-                                        veniam, est tempore, voluptatem sint aperiam fuga quo laudantium vel commodi
-                                        quibusdam
-                                        earum
-                                        qui nisi maiores deleniti repudiandae architecto provident illum. Fugiat,
-                                        voluptatum?
-                                        Autem
-                                        harum sed, ipsa consectetur, numquam sint nobis ab minima ex fugiat dolorum
-                                        maxime
-                                        pariatur
-                                        impedit. Hic inventore consectetur corrupti minus, rerum tempora sunt a
-                                        quibusdam
-                                        numquam
-                                        distinctio voluptates nam nemo deleniti unde amet quam voluptate repellat
-                                        voluptatem
-                                        rem
-                                        magnam illum harum commodi consequuntur? Vel ex iure suscipit distinctio
-                                        reiciendis
-                                        quo
-                                        labore, error nisi ullam quisquam! Quis voluptas ducimus repellendus similique
-                                        excepturi?
-                                        Eos, hic dolorum ipsum cum harum fugit? Possimus eius magni suscipit animi
-                                        maiores
-                                        dolores
-                                        molestiae, accusantium aperiam provident ipsa ad, ratione exercitationem! Fugit
-                                        necessitatibus, a magni voluptatum officiis obcaecati voluptas debitis, labore
-                                        animi
-                                        ab
-                                        voluptatibus sunt doloremque, atque molestiae accusantium reiciendis unde. Quia
-                                        quas
-                                        repudiandae illo, aspernatur totam recusandae?</p>
+                                    <div class="design-process-problem-statment">
+                                        <h4>Problem Statment</h4>
+                                        <p class="portfolio-content-paragraph">People in Indonesia have been longing for
+                                            a very interesting and enjoyable vacation. There are several factors that
+                                            need
+                                            to be considered so that there is no need to worry about where to go, where
+                                            to stay, whether the place to be visited is
+                                            in line with expectations or not, and most importantly whether it is in line
+                                            with the budget available.
+                                            Often, people choose their vacation destinations from friends, relatives, or
+                                            family members who have previously visited
+                                            the tourist destinations. Because they have gained experience from them
+                                            before, they have no doubt in choosing the
+                                            tourist destination, even though they don't know if it meets their
+                                            expectations.</p>
+                                    </div>
+                                    <div class="design-process-possible-solution mt-4">
+                                        <h4>Possible Solution</h4>
+                                        <p class="portfolio-content-paragraph">The purpose of creating the Tour & Travel
+                                            application is to make it easier for the community, especially in Indonesia,
+                                            to make tourism and hotel reservations quickly and easily, as well as to
+                                            provide recommendations for tourist
+                                            destinations and hotels. The result achieved in creating the Tour & Travel
+                                            application is a
+                                            mobile-based digital platform that can meet users'
+                                            needs without fear of not meeting their expectations and provide
+                                            recommendations for tourist destinations that match
+                                            their desires.</p>
+                                    </div>
+                                    <div class="design-process-role mt-4">
+                                        <h4>Role</h4>
+                                        <p class="portfolio-content-paragraph">UI/UX Designer</p>
+                                    </div>
+                                    <div class="design-process-tools mt-4">
+                                        <h4>Tools</h4>
+                                        <img src="images/icon/google-doc.svg" class="img-fluid" alt="">
+                                        <img src="images/icon/google-drive.svg" class="img-fluid" alt="">
+                                        <img src="images/icon/google-meet.svg" class="img-fluid" alt="">
+                                        <img src="images/icon/zoom.svg" class="img-fluid" alt="">
+                                        <img src="images/icon/figma.svg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="design-process-timeline mt-4">
+                                        <h4>Timeline</h4>
+                                        <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Quaerat suscipit laboriosam repudiandae architecto optio voluptatibus harum
+                                            quae aut, corporis blanditiis amet saepe placeat minima quo alias
+                                            reprehenderit, ut officia debitis adipisci perspiciatis? Nesciunt vero
+                                            dolorum id distinctio a explicabo doloribus, nulla ut suscipit eius, dolore
+                                            voluptatem at neque provident voluptatibus molestiae odio repellat quaerat
+                                            corporis repudiandae sed, quam doloremque enim nostrum. Deleniti voluptates
+                                            animi veniam et quisquam sapiente ut ipsam numquam pariatur ex enim, placeat
+                                            sed veritatis mollitia cum repudiandae, molestiae dignissimos illum officia
+                                            adipisci eius saepe. Assumenda, architecto error! Commodi repudiandae
+                                            provident aut. Corrupti vel consectetur fuga totam qui!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <!-- BLog End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
                         <!-- BLog Start -->
                         <div class="col-12 mt-4" id="design-process">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
                                     <h4>Design Process</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Veniam odit voluptate
                                         nobis
                                         voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
@@ -329,13 +339,17 @@
                             </div>
                         </div>
                         <!-- BLog End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
                         <!-- BLog Start -->
                         <div class="col-12 mt-4" id="define">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
                                     <h4>Define</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Veniam odit voluptate
                                         nobis
                                         voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
@@ -383,13 +397,17 @@
                             </div>
                         </div>
                         <!-- BLog End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
                         <!-- BLog Start -->
                         <div class="col-12 mt-4" id="empathize">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
                                     <h4>Empathize</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Veniam odit voluptate
                                         nobis
                                         voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
@@ -437,121 +455,125 @@
                             </div>
                         </div>
                         <!-- BLog End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
                         <!-- BLog Start -->
                         <div class="col-12 mt-4" id="ideate">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
-                                    <h4>Ideate</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Veniam odit voluptate
-                                        nobis
-                                        voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
-                                        aliquam
-                                        aliquid aut, facilis praesentium minima deserunt cumque obcaecati ut, distinctio
-                                        quos
-                                        fugit
-                                        eveniet illo! Eligendi possimus consequuntur numquam consequatur esse
-                                        necessitatibus
-                                        aspernatur sit reiciendis, porro, quae velit recusandae nostrum vel, minima
-                                        perferendis
-                                        cumque obcaecati maxime voluptatem quo iure voluptas totam! Sunt laborum facilis
-                                        dolorem
-                                        veniam, est tempore, voluptatem sint aperiam fuga quo laudantium vel commodi
-                                        quibusdam
-                                        earum
-                                        qui nisi maiores deleniti repudiandae architecto provident illum. Fugiat,
-                                        voluptatum?
-                                        Autem
-                                        harum sed, ipsa consectetur, numquam sint nobis ab minima ex fugiat dolorum
-                                        maxime
-                                        pariatur
-                                        impedit. Hic inventore consectetur corrupti minus, rerum tempora sunt a
-                                        quibusdam
-                                        numquam
-                                        distinctio voluptates nam nemo deleniti unde amet quam voluptate repellat
-                                        voluptatem
-                                        rem
-                                        magnam illum harum commodi consequuntur? Vel ex iure suscipit distinctio
-                                        reiciendis
-                                        quo
-                                        labore, error nisi ullam quisquam! Quis voluptas ducimus repellendus similique
-                                        excepturi?
-                                        Eos, hic dolorum ipsum cum harum fugit? Possimus eius magni suscipit animi
-                                        maiores
-                                        dolores
-                                        molestiae, accusantium aperiam provident ipsa ad, ratione exercitationem! Fugit
-                                        necessitatibus, a magni voluptatum officiis obcaecati voluptas debitis, labore
-                                        animi
-                                        ab
-                                        voluptatibus sunt doloremque, atque molestiae accusantium reiciendis unde. Quia
-                                        quas
-                                        repudiandae illo, aspernatur totam recusandae?</p>
+                                    <div class="design-process-user-flow">
+                                        <h4>User Flow</h4>
+                                        <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Quaerat suscipit laboriosam repudiandae architecto optio voluptatibus harum
+                                            quae aut, corporis blanditiis amet saepe placeat minima quo alias
+                                            reprehenderit, ut officia debitis adipisci perspiciatis? Nesciunt vero
+                                            dolorum id distinctio a explicabo doloribus, nulla ut suscipit eius, dolore
+                                            voluptatem at neque provident voluptatibus molestiae odio repellat quaerat
+                                            corporis repudiandae sed, quam doloremque enim nostrum. Deleniti voluptates
+                                            animi veniam et quisquam sapiente ut ipsam numquam pariatur ex enim, placeat
+                                            sed veritatis mollitia cum repudiandae, molestiae dignissimos illum officia
+                                            adipisci eius saepe. Assumenda, architecto error! Commodi repudiandae
+                                            provident aut. Corrupti vel consectetur fuga totam qui!</p>
+                                        <img src="images/portfolio/jejalanku/Portofolio - Jejalanku - User Flow.png"
+                                            class="img-fluid">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <!-- BLog End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
                         <!-- BLog Start -->
                         <div class="col-12 mt-4" id="prototype">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
-                                    <h4>Prototype</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Veniam odit voluptate
-                                        nobis
-                                        voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
-                                        aliquam
-                                        aliquid aut, facilis praesentium minima deserunt cumque obcaecati ut, distinctio
-                                        quos
-                                        fugit
-                                        eveniet illo! Eligendi possimus consequuntur numquam consequatur esse
-                                        necessitatibus
-                                        aspernatur sit reiciendis, porro, quae velit recusandae nostrum vel, minima
-                                        perferendis
-                                        cumque obcaecati maxime voluptatem quo iure voluptas totam! Sunt laborum facilis
-                                        dolorem
-                                        veniam, est tempore, voluptatem sint aperiam fuga quo laudantium vel commodi
-                                        quibusdam
-                                        earum
-                                        qui nisi maiores deleniti repudiandae architecto provident illum. Fugiat,
-                                        voluptatum?
-                                        Autem
-                                        harum sed, ipsa consectetur, numquam sint nobis ab minima ex fugiat dolorum
-                                        maxime
-                                        pariatur
-                                        impedit. Hic inventore consectetur corrupti minus, rerum tempora sunt a
-                                        quibusdam
-                                        numquam
-                                        distinctio voluptates nam nemo deleniti unde amet quam voluptate repellat
-                                        voluptatem
-                                        rem
-                                        magnam illum harum commodi consequuntur? Vel ex iure suscipit distinctio
-                                        reiciendis
-                                        quo
-                                        labore, error nisi ullam quisquam! Quis voluptas ducimus repellendus similique
-                                        excepturi?
-                                        Eos, hic dolorum ipsum cum harum fugit? Possimus eius magni suscipit animi
-                                        maiores
-                                        dolores
-                                        molestiae, accusantium aperiam provident ipsa ad, ratione exercitationem! Fugit
-                                        necessitatibus, a magni voluptatum officiis obcaecati voluptas debitis, labore
-                                        animi
-                                        ab
-                                        voluptatibus sunt doloremque, atque molestiae accusantium reiciendis unde. Quia
-                                        quas
-                                        repudiandae illo, aspernatur totam recusandae?</p>
+                                    <div class="design-process-lofi">
+                                        <h4>Low Fidielity Design</h4>
+                                        <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Quaerat suscipit laboriosam repudiandae architecto optio voluptatibus harum
+                                            quae aut, corporis blanditiis amet saepe placeat minima quo alias
+                                            reprehenderit, ut officia debitis adipisci perspiciatis? Nesciunt vero
+                                            dolorum id distinctio a explicabo doloribus, nulla ut suscipit eius, dolore
+                                            voluptatem at neque provident voluptatibus molestiae odio repellat quaerat
+                                            corporis repudiandae sed, quam doloremque enim nostrum. Deleniti voluptates
+                                            animi veniam et quisquam sapiente ut ipsam numquam pariatur ex enim, placeat
+                                            sed veritatis mollitia cum repudiandae, molestiae dignissimos illum officia
+                                            adipisci eius saepe. Assumenda, architecto error! Commodi repudiandae
+                                            provident aut. Corrupti vel consectetur fuga totam qui!</p>
+                                        <img src="images/portfolio/jejalanku/Portofolio - Jejalanku - LoFi Design.png"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="design-process-hifi">
+                                        <h4>High Fidielity Design</h4>
+                                        <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Quaerat suscipit laboriosam repudiandae architecto optio voluptatibus harum
+                                            quae aut, corporis blanditiis amet saepe placeat minima quo alias
+                                            reprehenderit, ut officia debitis adipisci perspiciatis? Nesciunt vero
+                                            dolorum id distinctio a explicabo doloribus, nulla ut suscipit eius, dolore
+                                            voluptatem at neque provident voluptatibus molestiae odio repellat quaerat
+                                            corporis repudiandae sed, quam doloremque enim nostrum. Deleniti voluptates
+                                            animi veniam et quisquam sapiente ut ipsam numquam pariatur ex enim, placeat
+                                            sed veritatis mollitia cum repudiandae, molestiae dignissimos illum officia
+                                            adipisci eius saepe. Assumenda, architecto error! Commodi repudiandae
+                                            provident aut. Corrupti vel consectetur fuga totam qui!</p>
+                                        <img src="images/portfolio/jejalanku/Portofolio - Jejalanku - HiFi Design.png"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="design-process-prototype">
+                                        <h4>Prototype</h4>
+                                        <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.
+                                            Quaerat suscipit laboriosam repudiandae architecto optio voluptatibus harum
+                                            quae aut, corporis blanditiis amet saepe placeat minima quo alias
+                                            reprehenderit, ut officia debitis adipisci perspiciatis? Nesciunt vero
+                                            dolorum id distinctio a explicabo doloribus, nulla ut suscipit eius, dolore
+                                            voluptatem at neque provident voluptatibus molestiae odio repellat quaerat
+                                            corporis repudiandae sed, quam doloremque enim nostrum. Deleniti voluptates
+                                            animi veniam et quisquam sapiente ut ipsam numquam pariatur ex enim, placeat
+                                            sed veritatis mollitia cum repudiandae, molestiae dignissimos illum officia
+                                            adipisci eius saepe. Assumenda, architecto error! Commodi repudiandae
+                                            provident aut. Corrupti vel consectetur fuga totam qui!</p>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%"
+                                                    height="450"
+                                                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhWlIOXtbhTqo3M6Rli0dIE%2FJejalanku%253A-Tour-%2526-Travel%3Fnode-id%3D804%253A4576%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D804%253A4576"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-md-6 mt-3 d-grid">
+                                                <a href="https://www.figma.com/file/hWlIOXtbhTqo3M6Rli0dIE/Jejalanku%3A-Tour-%26-Travel?node-id=123%3A1725&t=pGfitWwIqjsXmJyY-1"
+                                                    target="_blank" class="btn btn-outline-primary">Link Figma
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 mt-3 d-grid">
+                                                <a href="https://www.figma.com/proto/hWlIOXtbhTqo3M6Rli0dIE/Jejalanku%3A-Tour-%26-Travel?node-id=804%3A4576&scaling=scale-down&page-id=0%3A1&starting-point-node-id=804%3A4576"
+                                                    target="_blank" class="btn btn-outline-primary">Link Prototype
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <!-- BLog End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
                         <!-- BLog Start -->
                         <div class="col-12 mt-4" id="validate">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
                                     <h4>Validate</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Veniam odit voluptate
                                         nobis
                                         voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
@@ -599,13 +621,17 @@
                             </div>
                         </div>
                         <!-- BLog End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
                         <!-- BLog Start -->
                         <div class="col-12 mt-4" id="concultion">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
                                 class="scrollspy-example" tabindex="0">
                                 <div class="portfolio-content">
                                     <h4>Concultion</h4>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p class="portfolio-content-paragraph">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit.
                                         Veniam odit voluptate
                                         nobis
                                         voluptatibus sit consequatur esse, placeat repellendus delectus veritatis quo
@@ -844,7 +870,7 @@
                         </div>
                         <div class="content mt-2">
                             <h5 class="title text-uppercase">Phone</h5>
-                            <p class="text-muted">+62 851 6171 6453</p>
+                            <p class="portfolio-content-paragraph">+62 851 6171 6453</p>
                             <a href="https://wa.me/6285161716453" target="_blank"
                                 class="btn btn-outline-primary">Contact Me</a>
                         </div>
@@ -858,7 +884,7 @@
                         </div>
                         <div class="content mt-2">
                             <h5 class="title text-uppercase">Email</h5>
-                            <p class="text-muted">dimasaddriansyah14@gmail.com</p>
+                            <p class="portfolio-content-paragraph">dimasaddriansyah14@gmail.com</p>
                             <a href="mailto:dimasaddriansyah14@gmail.com" target="_blank"
                                 class="btn btn-outline-primary">Email Me</a>
                         </div>
@@ -872,7 +898,7 @@
                         </div>
                         <div class="content mt-2">
                             <h5 class="title text-uppercase">Location</h5>
-                            <p class="text-muted">Indramayu, West Java</p>
+                            <p class="portfolio-content-paragraph">Indramayu, West Java</p>
                             <a href="https://goo.gl/maps/QjfsjCKcMhu6qxDS9" target="_blank"
                                 class="btn btn-outline-primary">View on Google Maps</a>
                         </div>
