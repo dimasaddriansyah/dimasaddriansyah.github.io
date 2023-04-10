@@ -1558,8 +1558,14 @@ p {
     background-color: #fff
 }
 
+a.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;
+}
+
 .nav-sticky .navbar-brand {
-    color: #3c4858 !important
+    color: #0056b3 !important;
+    font-weight: bold;
 }
 
 .nav-sticky .social-icon.light-social-icon li a {
@@ -1592,6 +1598,11 @@ p {
 }
 
 @media (max-width: 991px) {
+    a.navbar-brand {
+        color: #0056b3 !important;
+        font-weight: bold;
+    }
+
     .navbar-custom {
         background-color: #fff !important;
         padding: 10px 0px !important
@@ -1667,7 +1678,26 @@ p {
 }
 
 .bg-home {
-    padding: 180px 0;
+    padding: 164px 0;
+    background-size: cover;
+    align-self: center;
+    position: relative;
+    background-position: center center
+}
+
+.bg-home a.btn-outline-primary{
+    border: 1px #fff solid !important;
+    color: #fff !important;
+}
+
+.bg-home a.btn-outline-primary:hover {
+    background-color: #fff !important;
+    color: #0056b3 !important;
+    box-shadow: 0 3px 5px 0 rgba(45, 132, 251, 0.3);
+}
+
+.bg-portfolio {
+    padding: 256px 0;
     background-size: cover;
     align-self: center;
     position: relative;
@@ -2533,7 +2563,7 @@ ul .t-ltr-dark {
 }
 
 .divider{
-    width: 240px;
+    width: 320px;
     border-top: 3px dashed #fff;
 }
 
