@@ -16,16 +16,13 @@
     <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
     <!-- Icon -->
     <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-
-    <!-- SLICK SLIDER -->
-    <link rel="stylesheet" href="css/tiny-slider.css" />
     <!-- Custom Css -->
     <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
     <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="20">
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="128">
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -56,7 +53,10 @@
                         <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link active" href="#content">Content</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">More Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -77,33 +77,208 @@
     <!-- Navbar End -->
 
     <!-- Home Start -->
-    <section class="bg-portfolio d-table w-100" style="background-image:url('images/background-portfolio.png');" id="home">
+    <section class="bg-portfolio d-table w-100"
+        style="background-image:url('images/portfolio/tivox/Portfolio\ -\ Cover\ Detail.png');" id="home">
         <div class="bg-overlay"></div>
         <div class="container position-relative" style="z-index: 1;">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">
                     <div class="page-next-level">
-                        <h4 class="title text-white"> Portfolio </h4>
+                        <h4 class="title text-white">Portfolio Tivox</h4>
 
                         <nav aria-label="breadcrumb" class="d-inline-block mt-4">
                             <ul class="breadcrumb bg-white rounded shadow mb-0 px-4 py-2">
                                 <li class="breadcrumb-item"><a href="index.html">Dimas Addriansyah</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+                                <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Tivox - Bag Store</li>
                             </ul>
                         </nav>
                     </div>
                 </div> <!--end col-->
             </div> <!--end container-->
         </div><!--end container-->
-        <a href="#portfolio" data-scroll-nav="1"
+        <a href="#content" data-scroll-nav="1"
             class="mouse-icon mouse-icon-white rounded-pill bg-transparent mouse-down">
             <span class="wheel position-relative d-block mover"></span>
         </a>
     </section><!--end section-->
     <!-- Home End -->
 
+    <!-- Content Start -->
+    <section class="section" id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="portfolio-box rounded position-relative overflow-hidden">
+                        <div class="portfolio-box-img position-relative overflow-hidden">
+                            <img class="item-container img-fluid mx-auto"
+                                src="images/portfolio/tivox/Portfolio - Preview 01.png" alt="Portfolio Image" />
+                            <div class="overlay-work">
+                                <div class="work-content text-center">
+                                    <a href="images/portfolio/tivox/Portfolio - Preview 01.png"
+                                        class="text-light work-icon bg-dark d-inline-block rounded-pill lightbox"><i
+                                            data-feather="camera" class="fea icon-sm image-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6" id="portfolio-preview-01">
+                    <div class="portfolio-box rounded position-relative overflow-hidden">
+                        <div class="portfolio-box-img position-relative overflow-hidden">
+                            <img class="item-container img-fluid mx-auto"
+                                src="images/portfolio/tivox/Portfolio - Preview 02.png" alt="Portfolio Image" />
+                            <div class="overlay-work">
+                                <div class="work-content text-center">
+                                    <a href="images/portfolio/tivox/Portfolio - Preview 02.png"
+                                        class="text-light work-icon bg-dark d-inline-block rounded-pill lightbox"><i
+                                            data-feather="camera" class="fea icon-sm image-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-4 mt-4 d-none d-lg-block border-end">
+                    <div id="list-example" class="list-group sticky-sidebar rounded">
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link py-3" href="#project-overview">Project Overview</a>
+                            <a class="nav-link py-3" href="#lofi">LoFi Design</a>
+                            <a class="nav-link py-3" href="#hifi">HiFi Design</a>
+                            <a class="nav-link py-3" href="#design-system">Design System</a>
+                            <a class="nav-link py-3" href="#figma-link">Figma Preview & Link</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="row">
+                        <!-- Project Overview Start -->
+                        <div class="col-12 mt-4" id="project-overview">
+                            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                                class="scrollspy-example" tabindex="0">
+                                <div class="portfolio-content">
+                                    <h4>Project Overview</h4>
+                                    <p class="portfolio-content-paragraph">A project that aims to create a landing page
+                                        for a bag store application website. This start page will be used to provide
+                                        a brief and interesting description of the bag store application to website
+                                        visitors.
+
+                                        The purpose of making this landing page is to attract the attention of visitors
+                                        and turn them into potential customers
+                                        for the bag store application. Therefore, this landing page must be designed to
+                                        be visually attractive, easy to
+                                        understand, and have sufficient information to motivate visitors to learn more
+                                        about the bag store application.
+
+                                        Some of the features that are expected to be found on this landing page are a
+                                        brief description of the bag store,
+                                        advantages, the latest products, and customer testimonials.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Overview End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
+                        <!-- LoFi Start -->
+                        <div class="col-12 mt-4" id="lofi">
+                            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                                class="scrollspy-example" tabindex="0">
+                                <div class="portfolio-content">
+                                    <h4>LoFi Design</h4>
+                                    <p class="portfolio-content-paragraph">In making a landing page, need an initial
+                                        structure or description for positioning and elements that will be used
+                                        later. These elements include the header, footer, hero section, CTA button, why
+                                        choose us, our features, new product,
+                                        our story, and also subscriptions.</p>
+                                    <img src="images/portfolio/tivox/Portfolio - LoFi Design.png" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- LoFi End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
+                        <!-- HiFi Start -->
+                        <div class="col-12 mt-4" id="hifi">
+                            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                                class="scrollspy-example" tabindex="0">
+                                <div class="portfolio-content">
+                                    <h4>HiFi Design</h4>
+                                    <p class="portfolio-content-paragraph">After creating a wireframe, then create a
+                                        visual appearance so that it can attract users to be able to see it, this
+                                        visual appearance is very important and detailed, in choosing colors,
+                                        typography, photos and others. It is hoped that
+                                        this creation can communicate the form of visual design to users who see it</p>
+                                    <img src="images/portfolio/tivox/Portfolio - HiFi Design.png" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- HiFi End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
+                        <!-- Design System Start -->
+                        <div class="col-12 mt-4" id="design-system">
+                            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                                class="scrollspy-example" tabindex="0">
+                                <div class="portfolio-content">
+                                    <h4>Design System</h4>
+                                    <p class="portfolio-content-paragraph">To make it easier to work on this landing
+                                        page and save time, a design system is needed which includes color,
+                                        typhography, and also several component cards.</p>
+                                    <img src="images/portfolio/tivox/Portfolio - Design System.png" alt=""
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Design System End -->
+                        <div class="col-12 d-flex justify-content-center">
+                            <hr class="divider">
+                        </div>
+                        <!-- Figma Link Start -->
+                        <div class="col-12 mt-4" id="figma-link">
+                            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                                class="scrollspy-example" tabindex="0">
+                                <div class="portfolio-content">
+                                    <h4 class="mb-4">Figma Preview & Link</h4>
+                                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="figma-preview"
+                                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgJTJ1hxNvLJmcuFMCCAc4y%2FTivox%253A-Bag-Store%3Fnode-id%3D111-133%26scaling%3Dscale-down-width%26page-id%3D111%253A124"
+                                        allowfullscreen></iframe>
+                                    <a href="https://www.figma.com/file/gJTJ1hxNvLJmcuFMCCAc4y/Tivox%3A-Bag-Store?node-id=111%3A124&t=7PAu7mryT4xylqyH-1"
+                                        target="_blank" class="d-grid mt-3 btn btn-outline-primary">Link Figma
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Figma Link End -->
+                    </div>
+                </div>
+            </div><!--end row-->
+        </div><!--end container-->
+    </section>
+    <!-- Content End -->
+
     <!-- Portfolio End -->
     <section class="section bg-light" id="portfolio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h4 class="title title-line text-uppercase mb-4 pb-4">More Portfolio</h4>
+                        <p class="text-muted mx-auto para-desc mb-0">My portfolio demonstrates how I can apply my
+                            UI/UX
+                            design skills to create engaging and functional user experiences.</p>
+                    </div>
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 filters-group-wrap">
@@ -128,6 +303,7 @@
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
+
             <div id="grid" class="row">
                 <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["ui-design", "website-apps"]'>
                     <div class="portfolio-box rounded position-relative overflow-hidden">
@@ -151,11 +327,12 @@
                         </div>
                     </div>
                 </div><!--end col-->
+
                 <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["ui-design", "mobile-apps"]'>
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
-                            <img class="item-container img-fluid mx-auto"
-                                src="images/portfolio/jejalanku/Portfolio - Cover.png" alt="Portfolio Image" />
+                            <img src="images/portfolio/jejalanku/Portfolio - Cover.png" class="img-fluid"
+                                alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
                                     <a href="portfolio-jejalanku.html"
@@ -166,33 +343,13 @@
                             </div>
                         </div>
                         <div class="gallary-title py-4 text-center">
-                            <h5><a href="portfolio-jejalanku.html" class="title text-dark">Jejalanku - Tour &
-                                    Travel</a></h5>
-                            <span class="text-muted">UI Design • Website Apps</span>
-                        </div>
-                    </div>
-                </div><!--end col-->
-                <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["ui-design", "website-apps"]'>
-                    <div class="portfolio-box rounded position-relative overflow-hidden">
-                        <div class="portfolio-box-img position-relative overflow-hidden">
-                            <img src="images/portfolio/tivox/Portfolio - Cover.png" class="img-fluid"
-                                alt="member-image">
-                            <div class="overlay-work">
-                                <div class="work-content text-center">
-                                    <a href="portfolio-tivox.html"
-                                        class="text-light work-icon bg-dark d-inline-block rounded-pill">
-                                        <i data-feather="arrow-up-right" class="fea icon-sm image-icon"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallary-title py-4 text-center">
-                            <h5><a href="portfolio-tivox.html" class="title text-dark">Tivox - Bag Store</a>
+                            <h5><a href="portfolio-jejalanku.html" class="title text-dark">Jejalanku - Tour & Hotel</a>
                             </h5>
-                            <span class="text-muted">UI Design • Website Apps</span>
+                            <span class="text-muted">UI Design • Mobile Apps</span>
                         </div>
                     </div>
                 </div><!--end col-->
+
                 <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["ui-design", "website-apps"]'>
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
@@ -200,10 +357,12 @@
                                 alt="member-image">
                             <div class="overlay-work">
                                 <div class="work-content text-center">
-                                    <a href="portfolio-servicein.html"
-                                        class="text-light work-icon bg-dark d-inline-block rounded-pill">
-                                        <i data-feather="arrow-up-right" class="fea icon-sm image-icon"></i>
-                                    </a>
+                                    <div class="work-content text-center">
+                                        <a href="portfolio-servicein.html"
+                                            class="text-light work-icon bg-dark d-inline-block rounded-pill">
+                                            <i data-feather="arrow-up-right" class="fea icon-sm image-icon"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -215,6 +374,7 @@
                         </div>
                     </div>
                 </div><!--end col-->
+
                 <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["ui-design", "mobile-apps"]'>
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
@@ -236,6 +396,7 @@
                         </div>
                     </div>
                 </div><!--end col-->
+
                 <div class="col-lg-4 col-md-6 mt-4 pt-2 picture-item" data-groups='["ui-design", "mobile-apps"]'>
                     <div class="portfolio-box rounded position-relative overflow-hidden">
                         <div class="portfolio-box-img position-relative overflow-hidden">
@@ -251,7 +412,8 @@
                             </div>
                         </div>
                         <div class="gallary-title py-4 text-center">
-                            <h5><a href="portfolio-cashier.html" class="title text-dark">Cashier - Point of Sale</a>
+                            <h5><a href="portfolio-cashier.html" class="title text-dark">Cashier - Point of
+                                    Sale</a>
                             </h5>
                             <span class="text-muted">UI Design • Mobile Apps</span>
                         </div>
@@ -269,8 +431,10 @@
                 <div class="col-12 text-center">
                     <div class="section-title">
                         <h4 class="title title-line text-uppercase mb-4 pb-4">Contact Me</h4>
-                        <p class="text-muted mx-auto para-desc mb-0">I am ready and excited to communicate with you and
-                            help increase user confidence in your digital products as a UI/UX Designer. I will strive to
+                        <p class="text-muted mx-auto para-desc mb-0">I am ready and excited to communicate with you
+                            and
+                            help increase user confidence in your digital products as a UI/UX Designer. I will
+                            strive to
                             understand your business needs and goals as well as your users and target market.</p>
                     </div>
                 </div><!--end col-->
@@ -284,7 +448,7 @@
                         </div>
                         <div class="content mt-2">
                             <h5 class="title text-uppercase">Phone</h5>
-                            <p class="text-muted">+62 851 6171 6453</p>
+                            <p class="portfolio-content-paragraph">+62 851 6171 6453</p>
                             <a href="https://wa.me/6285161716453" target="_blank"
                                 class="btn btn-outline-primary">Contact Me</a>
                         </div>
@@ -298,7 +462,7 @@
                         </div>
                         <div class="content mt-2">
                             <h5 class="title text-uppercase">Email</h5>
-                            <p class="text-muted">dimasaddriansyah14@gmail.com</p>
+                            <p class="portfolio-content-paragraph">dimasaddriansyah14@gmail.com</p>
                             <a href="mailto:dimasaddriansyah14@gmail.com" target="_blank"
                                 class="btn btn-outline-primary">Email Me</a>
                         </div>
@@ -312,7 +476,7 @@
                         </div>
                         <div class="content mt-2">
                             <h5 class="title text-uppercase">Location</h5>
-                            <p class="text-muted">Indramayu, West Java</p>
+                            <p class="portfolio-content-paragraph">Indramayu, West Java</p>
                             <a href="https://goo.gl/maps/QjfsjCKcMhu6qxDS9" target="_blank"
                                 class="btn btn-outline-primary">View on Google Maps</a>
                         </div>
@@ -330,7 +494,8 @@
                 <div class="col-12 py-lg-5">
                     <div class="footer-py-60 text-center">
                         <h2 class="text-white">Dimas Addriansyah</h2>
-                        <p class="mt-4 para-desc mx-auto">I believe that good design is not only visually appealing &
+                        <p class="mt-4 para-desc mx-auto">I believe that good design is not only visually appealing
+                            &
                             aesthetic, but also easy to use and pays attention to small details. In every design
                             project, I strive to take a user-centered design approach to create a better user
                             experience.</p>
@@ -368,7 +533,8 @@
                     <div class="col-12">
                         <div class="text-center">
                             <p class="mb-0">©
-                                <script>document.write(new Date().getFullYear())</script> Design by Dimas Addriansyah
+                                <script>document.write(new Date().getFullYear())</script> Design by Dimas
+                                Addriansyah
                             </p>
                         </div>
                     </div><!--end col-->
@@ -386,9 +552,6 @@
 
     <!-- javascript -->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- SLIDER -->
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/tiny-slider-init.js"></script>
     <!-- shuffle and tobii js -->
     <script src="js/shuffle.min.js"></script>
     <script src="js/tobii.min.js"></script>
@@ -401,9 +564,6 @@
     <!--Partical js-->
     <script src="js/particles.js"></script>
     <script src="js/particles.app.js"></script>
-
-    <!-- Switcher -->
-    <script src="js/switcher.js"></script>
     <!-- Main Js -->
     <script src="js/app.js"></script>
 </body>
