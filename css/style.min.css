@@ -1558,7 +1558,7 @@ p {
     background-color: #fff
 }
 
-a.navbar-brand{
+a.navbar-brand {
     color: #fff !important;
     font-weight: bold;
 }
@@ -1586,7 +1586,7 @@ a.navbar-brand{
         margin-top: 12px !important
     }
 
-    .portfolio-content{
+    .portfolio-content {
         padding: 24px 24px 24px 24px;
     }
 }
@@ -1642,7 +1642,7 @@ a.navbar-brand{
     }
 
     .grid {
-         margin-top: 16px;
+        margin-top: 16px;
     }
 }
 
@@ -1685,7 +1685,7 @@ a.navbar-brand{
     background-position: center center
 }
 
-.bg-home a.btn-outline-primary{
+.bg-home a.btn-outline-primary {
     border: 1px #fff solid !important;
     color: #fff !important;
 }
@@ -1849,8 +1849,26 @@ a.navbar-brand{
     transform: translateY(-5px)
 }
 
-.interests-desc:hover .icon {
-    color: #f89d36
+.interests-desc svg.icon {
+    fill: #000 !important;
+}
+
+.interests-desc:hover svg.icon {
+    fill: #007bff !important;
+}
+
+.interests-desc svg.icon.sql,
+.interests-desc svg.icon.power-bi,
+.interests-desc svg.icon.talend {
+    fill: #fff !important;
+    stroke: #000 !important;
+}
+
+.interests-desc:hover svg.icon.sql,
+.interests-desc:hover svg.icon.power-bi,
+.interests-desc:hover svg.icon.talend {
+    fill: #fff !important;
+    stroke: #007bff !important;
 }
 
 .service-wrapper {
@@ -1916,7 +1934,7 @@ a.navbar-brand{
 }
 
 .main-icon {
-    border: 2px solid #ced4da;
+    border: 2px solid #007bff10;
     height: 40px;
     width: 40px;
     line-height: 0;
@@ -1924,7 +1942,7 @@ a.navbar-brand{
 }
 
 .timeline-page:after {
-    background-color: #ced4da !important;
+    background-color: #007bff10 !important;
     content: "";
     height: 95%;
     left: 0;
@@ -1946,14 +1964,14 @@ a.navbar-brand{
 
 .timeline-page .timeline-item .date-label-left:after,
 .timeline-page .timeline-item .duration-right:after {
-    border: 2px solid #161c2d;
+    border: 2px solid #007bff;
     content: "";
     position: absolute;
     top: 12px;
     width: 12px;
     height: 12px;
     z-index: 1;
-    background-color: #f8f9fa;
+    background-color: #fff;
     border-radius: 30px
 }
 
@@ -2102,7 +2120,7 @@ a.navbar-brand{
     border-color: #f89d36 !important
 }
 
-.portfolio-content-paragraph{
+.portfolio-content-paragraph {
     font-size: 16px;
 }
 
@@ -2568,15 +2586,17 @@ ul .t-ltr-dark {
     }
 }
 
-.divider{
+.divider {
     width: 320px;
     border-top: 3px dashed #fff;
 }
 
-.figma-preview{
+.figma-preview {
     width: 100%;
     height: 550px;
 }
 
 
-/*# sourceMappingURL=style.min.css.map */
+#work-experience ul li{
+    list-style: circle;
+}
