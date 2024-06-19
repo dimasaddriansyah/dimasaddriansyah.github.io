@@ -2596,7 +2596,11 @@ ul .t-ltr-dark {
     height: 550px;
 }
 
-
-#work-experience ul li{
+#work-experience ul li {
     list-style: circle;
+}
+
+h3.typewrite,
+span.typewrite {
+    text-decoration: underline;
 }
