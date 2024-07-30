@@ -1859,14 +1859,16 @@ a.navbar-brand {
 
 .interests-desc svg.icon.sql,
 .interests-desc svg.icon.power-bi,
-.interests-desc svg.icon.talend {
+.interests-desc svg.icon.talend,
+.interests-desc svg.icon.biq-query {
     fill: #fff !important;
     stroke: #000 !important;
 }
 
 .interests-desc:hover svg.icon.sql,
 .interests-desc:hover svg.icon.power-bi,
-.interests-desc:hover svg.icon.talend {
+.interests-desc:hover svg.icon.talend,
+.interests-desc:hover svg.icon.biq-query {
     fill: #fff !important;
     stroke: #007bff !important;
 }
@@ -2603,4 +2605,14 @@ ul .t-ltr-dark {
 h3.typewrite,
 span.typewrite {
     text-decoration: underline;
+}
+
+.striped>tbody>tr:nth-child(even)>td,
+.striped>tbody>tr:nth-child(even)>th {
+    background-color: rgba(0, 157, 255, 0.05);
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #007bff10;
 }
