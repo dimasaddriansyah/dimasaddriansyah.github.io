@@ -2589,7 +2589,7 @@ ul .t-ltr-dark {
 }
 
 .divider {
-    width: 320px;
+    width: 80px;
     border-top: 3px dashed #fff;
 }
 
@@ -2615,4 +2615,18 @@ span.typewrite {
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
     background-color: #007bff10;
+}
+
+/* IFRAME */
+@media (min-width: 375px) {
+    iframe {
+        height: 15rem;
+        width: 100%
+    }
+}
+@media (min-width: 768px) {
+    iframe {
+        height: 25rem;
+        width: 100%
+    }
 }
