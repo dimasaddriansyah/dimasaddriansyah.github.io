@@ -2589,7 +2589,7 @@ ul .t-ltr-dark {
 }
 
 .divider {
-    width: 80px;
+    width: 40px;
     border-top: 3px dashed #fff;
 }
 
@@ -2612,6 +2612,10 @@ span.typewrite {
     background-color: rgba(0, 157, 255, 0.05);
 }
 
+.table {
+    border: #E2E8F0 1px solid;
+}
+
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
     background-color: #007bff10;
@@ -2621,12 +2625,20 @@ span.typewrite {
 @media (min-width: 375px) {
     iframe {
         height: 15rem;
-        width: 100%
+        width: 100%;
+        border: #E2E8F0 1px solid;
     }
 }
+
 @media (min-width: 768px) {
     iframe {
         height: 25rem;
-        width: 100%
+        width: 100%;
+        border: #E2E8F0 1px solid;
+    }
+    iframe#retail-transaction-report{
+        height: 27rem;
+        width: 100%;
+        border: #E2E8F0 1px solid;
     }
 }
