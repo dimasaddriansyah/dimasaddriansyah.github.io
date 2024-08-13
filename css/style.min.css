@@ -2636,9 +2636,21 @@ span.typewrite {
         width: 100%;
         border: #E2E8F0 1px solid;
     }
-    iframe#retail-transaction-report{
+
+    iframe#retail-transaction-report {
         height: 27rem;
         width: 100%;
         border: #E2E8F0 1px solid;
     }
+}
+
+pre[class*="language-"] {
+    border-left: 2px solid #358ccb !important;
+}
+
+pre[class*="language-"]:before,
+pre[class*="language-"]:after {
+    -webkit-box-shadow: 0 0px 0px !important;
+    -moz-box-shadow: 0 0px 0px !important;
+    box-shadow: 0 0px 0px !important;
 }
